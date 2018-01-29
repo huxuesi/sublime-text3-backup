@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/F/vue_honsen"
 	],
 	"last_version": 3143,
 	"last_window_id": 1,
@@ -27,18 +28,19 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 0.0,
+				"height": 392.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 412.0
 			},
 			"console":
 			{
-				"height": 0.0,
+				"height": 178.0,
 				"history":
 				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 				]
 			},
 			"distraction_free":
@@ -127,7 +129,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-32000,-32000,-1,-1,857,606,319,1262",
+			"position": "0,2,3,-1,-1,-1,-1,718,710,180,1366",
 			"project": "",
 			"replace":
 			{
@@ -169,7 +171,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 171.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
