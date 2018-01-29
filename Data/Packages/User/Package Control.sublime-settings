@@ -1,0 +1,34 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"Babel",
+		"BracketHighlighter",
+		"ChineseLocalizations",
+		"Colorsublime",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"LESS",
+		"MarkdownEditing",
+		"Minify",
+		"Package Control",
+		"ReactJS",
+		"SideBarEnhancements",
+		"SideBarTools",
+		"Status Bar File Size",
+		"Stylus",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-jsl",
+		"SyncedSideBar",
+		"SyncedSidebarBg",
+		"TrailingSpaces",
+		"Vue Syntax Highlight"
+	]
+}
