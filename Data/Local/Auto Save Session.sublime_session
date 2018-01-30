@@ -1,0 +1,740 @@
+{
+	"folder_history":
+	[
+		"/F/vue_honsen"
+	],
+	"last_version": 3143,
+	"last_window_id": 5,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 926.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 71.0,
+				"last_filter": "boxy",
+				"selected_items":
+				[
+					[
+						"boxy",
+						"Boxy Theme: Preferences"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"codein",
+						"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 540.0
+			},
+			"console":
+			{
+				"height": 130.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/D/Program Files (x64)/Adobe/Adobe Premiere Pro CC 2017/Adobe Premiere Pro.exe",
+				"/C/Users/Administrator/Desktop/改进汇总表（01.24）.xlsx",
+				"/F/vue_honsen/src/main.js",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/insert_date.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/insert_date.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/DocBlockr/README.md",
+				"/F/vue_honsen/src/components/common/z-recommend.vue",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/Minify/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/trailing_spaces.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+				"/F/vue_honsen/src/components/business/caseEdit.vue"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					";\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 281.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1344.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/F/vue_honsen/src/components/common/z-recommend.vue",
+					"settings":
+					{
+						"buffer_size": 23515,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 71.0,
+				"last_filter": "boxy",
+				"selected_items":
+				[
+					[
+						"boxy",
+						"Boxy Theme: Preferences"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"codein",
+						"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 540.0
+			},
+			"console":
+			{
+				"height": 130.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/F/vue_honsen",
+				"/F/vue_honsen/src",
+				"/F/vue_honsen/src/components",
+				"/F/vue_honsen/src/components/common"
+			],
+			"file_history":
+			[
+				"/D/Program Files (x64)/Adobe/Adobe Premiere Pro CC 2017/Adobe Premiere Pro.exe",
+				"/C/Users/Administrator/Desktop/改进汇总表（01.24）.xlsx",
+				"/F/vue_honsen/src/main.js",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/insert_date.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/insert_date.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/DocBlockr/README.md",
+				"/F/vue_honsen/src/components/common/z-recommend.vue",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/Minify/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/trailing_spaces.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+				"/F/vue_honsen/src/components/business/caseEdit.vue"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					";\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "F:\\vue_honsen"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/F/vue_honsen/src/components/common/z-recommend.vue",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 23515,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1008,
+										1008
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-1,-1,-1,-1,997,543,13,1903",
+			"project": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 281.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "// =============================================================================\n// BOXY THEME PREFERENCES\n// =============================================================================\n\n// Source: https://github.com/ihodev/sublime-boxy/wiki/Settings\n\n// All options are disabled by default, that's why you should place your\n// settings in the \"Packages/User/Preferences.sublime-settings\" file,\n// which overrides the settings in here, and change `false` -> `true`.\n\n// Settings may also be placed in syntax-specific setting files, for\n// example, in Packages/User/Python.sublime-settings for python files.\n\n// Table of Contents\n// -----------------------------------------------------------------------------\n// Use https://github.com/kizza/Table-of-comments for the quick navigation\n\n//  0 Configuration\n//  1 Activation\n//  2 Global\n//    2.1 Size\n//    2.2 Font\n//    2.3 Accent\n//    2.4 Icons\n//    2.5 Background\n//  3 Bar\n//  4 Tabs\n//    4.1 Tab Size\n//    4.2 Tab Font\n//    4.3 Tab Flavors\n//    4.4 Tab Misc\n//  5 Find Panels\n//    5.1 Find Panel Size\n//    5.2 Find Panel Font\n//    5.3 Find Panel Padding\n//    5.4 Find Panel Misc\n//  6 Quick Panels\n//    6.1 Quick Panel Size\n//    6.2 Quick Panel Misc\n//  7 Sidebar\n//    7.1 Sidebar Size\n//    7.2 Sidebar Font\n//    7.3 Sidebar Indent\n//    7.4 Sidebar Icons\n//    7.5 Sidebar Misc\n//  8 Status Bar\n//    8.1 Status Bar Size\n//    8.2 Status Bar Font\n//    8.3 Status Bar Misc\n//  9 Scrollbars\n// 10 Tooltips\n// 11 Grid\n// 12 Popups\n// 13 Minimap\n\n{\n  // > 0 Configuration\n  // -----------------------------------\n  // Change configurator icon symbols.\n\n  \"theme_config_marked\": \"✓\",\n  \"theme_config_unmarked\": \"✗\",\n  \"theme_config_radio_marked\": \"☒\",\n  \"theme_config_radio_unmarked\": \"☐\",\n\n  // > 1 Activation\n  // -----------------------------------\n  // Activate the UI theme and color scheme by modifying your user preferences\n  // file, which you can find using the menu item Preferences → Settings.\n\n  // DON'T FORGET TO RESTART SUBLIME TEXT AFTER ACTIVATING THE THEME.\n\n  // \"theme\": \"Boxy Monokai.sublime-theme\",\n  // \"color_scheme\": \"Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme\",\n\n  // \"theme\": \"Boxy Nova.sublime-theme\",\n  // \"color_scheme\": \"Packages/Boxy Theme/schemes/Boxy Nova.tmTheme\",\n\n  // \"theme\": \"Boxy Ocean.sublime-theme\",\n  // \"color_scheme\": \"Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme\",\n\n  // \"theme\": \"Boxy Solarized Dark.sublime-theme\",\n  // \"color_scheme\": \"Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme\",\n\n  // \"theme\": \"Boxy Solarized Light.sublime-theme\",\n  // \"color_scheme\": \"Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme\",\n\n  // \"theme\": \"Boxy Tomorrow.sublime-theme\",\n  // \"color_scheme\": \"Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme\",\n\n  // \"theme\": \"Boxy Yesterday.sublime-theme\",\n  // \"color_scheme\": \"Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme\",\n\n  // > 2 Global\n  // -----------------------------------\n\n  // Global options enable you to control some aspects of UI appearance at once.\n  // Generally, there are four kinds of global options which you can use:\n\n  //\n  // >> 2.1 Size\n  // Choose one option from this section\n\n  // Reduce size of all UI controls to extra small\n  \"theme_size_xs\": false,\n\n  // The default size of all UI controls\n  \"theme_size_sm\": false,\n\n  // Increase size of all UI controls to medium\n  \"theme_size_md\": false,\n\n  // Increase size of all UI controls to large\n  \"theme_size_lg\": false,\n\n  // Increase size of all UI controls to extra large\n  \"theme_size_xl\": false,\n\n  //\n  // >> 2.2 Font\n  // Choose one option from this section\n\n  // Reduce font size of all UI controls to 10 px\n  \"theme_font_xs\": false,\n\n  // The default font size of all UI controls is 11 px\n  \"theme_font_sm\": false,\n\n  // Increase font size of all UI controls to 12 px\n  \"theme_font_md\": false,\n\n  // Increase font size of all UI controls to 13 px\n  \"theme_font_lg\": false,\n\n  // Increase font size of all UI controls to 14 px\n  \"theme_font_xl\": false,\n\n  //\n  // >> 2.3 Accent\n  // Choose one option from this section\n\n  // The default accent of all UI controls\n  \"theme_accent_blue\": false,\n\n  // Set green accent color\n  \"theme_accent_green\": false,\n\n  // Set orange accent color\n  \"theme_accent_orange\": false,\n\n  // Set purple accent color\n  \"theme_accent_purple\": false,\n\n  // Set tangerine accent color\n  \"theme_accent_tangerine\": false,\n\n  // Set cyan accent color\n  \"theme_accent_cyan\": false,\n\n  // Set lime accent color\n  \"theme_accent_lime\": false,\n\n  // Set pink accent color\n  \"theme_accent_pink\": false,\n\n  // Set sky accent color\n  \"theme_accent_sky\": false,\n\n  // Set numix accent color\n  \"theme_accent_numix\": false,\n\n  // Set monochrome accent color\n  \"theme_accent_mono\": false,\n\n  //\n  // >> 2.4 Icons\n  // Choose one option from this section\n\n  // Enable a beautiful Material UI icons\n  \"theme_icons_materialized\": false,\n\n  // Enable a beautiful Atom UI icons\n  \"theme_icons_atomized\": false,\n\n  //\n  // >> 2.5 Background\n  //\n\n  // Enable the same background color for UI components\n  \"theme_unified\": false,\n\n  // Each one of them (except accent & background options) may be overridden by setting a\n  // similar option specific to UI control.\n\n  // For example, you want to increase font size of all UI controls via setting\n  // a global font size option. But due to this issue you can find that lower\n  // half of the tab label is cut off. In such cases just override font size by\n  // setting a font size option specific to the tab:\n\n  // \"theme_font_xl\": true,\n  // \"theme_tab_font_sm\": true,\n\n  // Or, if you want to increase the size of all UI controls but leave a small\n  // status bar, you can set these options:\n\n  // \"theme_size_md\": true,\n  // \"theme_statusbar_size_sm\": true,\n\n  //\n  // > 3 Bar\n  // -----------------------------------\n  // Bar options enable you to control some aspects of tabs' and sidebar's\n  // appearance at once.\n\n  // You can enable a beautiful bar for your Boxy Theme. The color tint fits\n  // automatically the theme accent color you chose if you want to use\n  // colored bar.\n\n  // Enable a beautiful bar based on your theme\n  \"theme_bar\": false,\n\n  // Enable a beautiful colored bar\n  // Works only with `theme_bar: true,`\n  \"theme_bar_colored\": false,\n\n  // Enable a Material UI logo\n  \"theme_bar_logo_materialized\": false,\n\n  // Enable an Atom UI logo\n  \"theme_bar_logo_atomized\": false,\n\n  // Hide bar shadow\n  \"theme_bar_shadow_hidden\": false,\n\n  // Also you can add a top margin to the tabs and sidebar, especially useful\n  // with the rounded tabs.\n\n  // Increase top margin of the tabs and sidebar to small\n  \"theme_bar_margin_top_sm\": false,\n\n  // Increase top margin of the tabs and sidebar to medium\n  \"theme_bar_margin_top_md\": false,\n\n  // Increase top margin of the tabs and sidebar to large\n  \"theme_bar_margin_top_lg\": false,\n\n  //\n  // > 4 Tabs\n  // -----------------------------------\n  // Tab options enable you to control appearance of the tabs.\n\n  //\n  // >> 4.1 Tab Size\n  //\n\n  // Reduce size of the tabs to extra small\n  \"theme_tab_size_xs\": false,\n\n  // The default size of tabs\n  \"theme_tab_size_sm\": false,\n\n  // Increase size of tabs to medium\n  \"theme_tab_size_md\": false,\n\n  // Increase size of tabs to large\n  \"theme_tab_size_lg\": false,\n\n  // Increase size of tabs to extra large\n  \"theme_tab_size_xl\": false,\n\n  // Increase size of tabs to extra extra large\n  \"theme_tab_size_xxl\": false,\n\n  // Auto adjust tab width from the name\n  \"theme_tab_width_auto\": false,\n\n  //\n  // >> 4.2 Tab Font\n  //\n  // Due to this issue: https://github.com/SublimeTextIssues/Core/issues/694\n  // you can find that lower half of the tab label is cut off.\n  // Vote for this bug.\n\n  // Reduce font size of tabs to 10 px\n  \"theme_tab_font_xs\": false,\n\n  // The default font size of tabs is 11 px\n  \"theme_tab_font_sm\": false,\n\n  // Increase font size of tabs to 12 px\n  \"theme_tab_font_md\": false,\n\n  // Increase font size of tabs to 13 px\n  \"theme_tab_font_lg\": false,\n\n  // Increase font size of tabs to 14 px\n  \"theme_tab_font_xl\": false,\n\n  // Make tab labels bold\n  \"theme_tab_label_bold\": false,\n\n  // Make selected tab label bold\n  \"theme_tab_selected_label_bold\": false,\n\n  //\n  // >> 4.3 Tab Flavors\n  //\n\n  // Add rounded corners to the tabs\n  \"theme_tab_rounded\": false,\n\n  // Set overlined style to the selected tab\n  \"theme_tab_selected_overlined\": false,\n\n  // Set underlined style to the selected tab\n  \"theme_tab_selected_underlined\": false,\n\n  // Set prelined style to the selected tab\n  \"theme_tab_selected_prelined\": false,\n\n  // Set filled style to the selected tab\n  \"theme_tab_selected_filled\": false,\n\n  // Set transparent style to the selected tab\n  // Especially good with accompanying `theme_tab_selected_underlined`\n  \"theme_tab_selected_transparent\": false,\n\n  // Set size of the tab lines to small\n  // When `theme_tab_selected_overlined`, `theme_tab_selected_prelined`\n  // or `theme_tab_selected_underlined` is true\n  \"theme_tab_line_size_sm\": false,\n\n  // Set size of the tab lines to large\n  // When `theme_tab_selected_overlined`, `theme_tab_selected_prelined`\n  // or `theme_tab_selected_underlined` is true\n  \"theme_tab_line_size_lg\": false,\n\n  //\n  // >> 4.4 Tab Misc\n  //\n\n  // Show tab set line\n  \"theme_tabset_line_visible\": false,\n\n  // Hide left arrows\n  \"theme_tab_arrows_hidden\": false,\n\n  // Enable tab switch via mouse wheel\n  \"theme_tab_mouse_wheel_switch\": false,\n\n  // Show tab separators\n  \"theme_tab_separator\": false,\n\n  // Disable tab background highlighting on hover\n  \"theme_tab_highlight_text_only\": false,\n\n  // Starting 3.0.0 by default close button of the inactive tabs is visible\n  // on hover only, this option enables you to show it always\n  \"theme_tab_close_always_visible\": false,\n\n  // Enable a beautiful Material UI dirty pencil icon\n  \"theme_dirty_materialized\": false,\n\n  // Make dirty icon to be always colored\n  \"theme_dirty_colored_always\": false,\n\n  // The default accent of the dirty state\n  \"theme_dirty_accent_blue\": false,\n\n  // Set green accent color for the dirty state\n  \"theme_dirty_accent_green\": false,\n\n  // Set orange accent color for the dirty state\n  \"theme_dirty_accent_orange\": false,\n\n  // Set purple accent color for the dirty state\n  \"theme_dirty_accent_purple\": false,\n\n  // Set tangerine accent color for the dirty state\n  \"theme_dirty_accent_tangerine\": false,\n\n  // Set cyan accent color for the dirty state\n  \"theme_dirty_accent_cyan\": false,\n\n  // Set lime accent color for the dirty state\n  \"theme_dirty_accent_lime\": false,\n\n  // Set pink accent color for the dirty state\n  \"theme_dirty_accent_pink\": false,\n\n  // Set sky accent color for the dirty state\n  \"theme_dirty_accent_sky\": false,\n\n  // Set numix accent color for the dirty state\n  \"theme_dirty_accent_numix\": false,\n\n  // Enable a beautiful Material UI dropdown icon\n  \"theme_dropdown_materialized\": false,\n\n  // Enable a beautiful Atom UI dropdown icon\n  \"theme_dropdown_atomized\": false,\n\n  //\n  // > 5 Find Panels\n  // -----------------------------------\n  // Find panel options enable you to manage appearance of the misc UI\n  // components such as buttons, labels, find panel & etc.\n\n  //\n  // >> 5.1 Find Panel Size\n  //\n\n  // Reduce size of the find panel to extra extra small\n  \"theme_find_panel_size_xxs\": false,\n\n  // Reduce size of the find panel to extra small\n  \"theme_find_panel_size_xs\": false,\n\n  // The default size of the find panel\n  \"theme_find_panel_size_sm\": false,\n\n  // Increase size of the find panel to medium\n  \"theme_find_panel_size_md\": false,\n\n  // Increase size of the find panel to large\n  \"theme_find_panel_size_lg\": false,\n\n  // Increase size of the find panel to extra large\n  \"theme_find_panel_size_xl\": false,\n\n  //\n  // >> 5.2 Find Panel Font\n  //\n\n  // Reduce font size of the find panel to 10 px\n  \"theme_find_panel_font_xs\": false,\n\n  // The default font size of the find panel is 11 px\n  \"theme_find_panel_font_sm\": false,\n\n  // Increase font size of the find panel to 12 px\n  \"theme_find_panel_font_md\": false,\n\n  // Increase font size of the find panel to 13 px\n  \"theme_find_panel_font_lg\": false,\n\n  // Increase font size of the find panel to 14 px\n  \"theme_find_panel_font_xl\": false,\n\n  //\n  // >> 5.3 Find Panel Padding\n  //\n\n  // The default padding of the find panel\n  \"theme_find_panel_padding_xs\": false,\n\n  // Increase padding of the find panel to small\n  \"theme_find_panel_padding_sm\": false,\n\n  // Increase padding of the find panel to medium\n  \"theme_find_panel_padding_md\": false,\n\n  // Increase padding of the find panel to large\n  \"theme_find_panel_padding_lg\": false,\n\n  // Increase padding of the find panel to extra large\n  \"theme_find_panel_padding_xl\": false,\n\n  //\n  // >> 5.4 Find Panel Misc\n  //\n\n  // Hide find panel close button\n  \"theme_find_panel_close_hidden\": false,\n\n  // Make round buttons\n  \"theme_button_rounded\": false,\n\n  // Highlight icon buttons in find panel\n  \"theme_icon_button_highlighted\": false,\n\n  // Enable beautiful Material UI find panel icons\n  \"theme_find_panel_materialized\": false,\n\n  // Enable beautiful Atom UI find panel icons\n  \"theme_find_panel_atomized\": false,\n\n  //\n  // > 6 Quick Panels\n  // -----------------------------------\n  // Quick panel options enable you to control the appearance of the\n  // Command Palette, Goto Anything, Quick Switch Project & etc.\n\n  //\n  // >> 6.1 Quick Panel Size\n  //\n\n  // Reduce size of the quick panels to extra small\n  \"theme_quick_panel_size_xs\": false,\n\n  // The default size of the quick panels\n  \"theme_quick_panel_size_sm\": false,\n\n  // Increase size of the quick panels to medium\n  \"theme_quick_panel_size_md\": false,\n\n  // Increase size of the quick panels to large\n  \"theme_quick_panel_size_lg\": false,\n\n  // Increase size of the quick panels to extra large\n  \"theme_quick_panel_size_xl\": false,\n\n  //\n  // >> 6.2 Quick Panel Misc\n  //\n\n  // Show quick panel border\n  \"theme_quick_panel_border_visible\": false,\n\n  // Starting 3.0.0 quick panel selected item has no colored background,\n  // this option turns it back\n  \"theme_quick_panel_item_selected_colored\": false,\n\n  //\n  // > 7 Sidebar\n  // -----------------------------------\n  // Sidebar options enable you to control appearance of the sidebar\n  // UI components.\n\n  //\n  // >> 7.1 Sidebar Size\n  //\n\n  // Reduce size of the sidebar to extra extra small\n  \"theme_sidebar_size_xxs\": false,\n\n  // Reduce size of the sidebar to extra small\n  \"theme_sidebar_size_xs\": false,\n\n  // The default size of the sidebar\n  \"theme_sidebar_size_sm\": false,\n\n  // Increase size of the sidebar to medium\n  \"theme_sidebar_size_md\": false,\n\n  // Increase size of the sidebar to large\n  \"theme_sidebar_size_lg\": false,\n\n  // Increase size of the sidebar to extra large\n  \"theme_sidebar_size_xl\": false,\n\n  //\n  // >> 7.2 Sidebar Font\n  //\n\n  // Reduce font size of the sidebar to 10 px\n  \"theme_sidebar_font_xs\": false,\n\n  // The default font size of the sidebar is 11 px\n  \"theme_sidebar_font_sm\": false,\n\n  // Increase font size of the sidebar to 12 px\n  \"theme_sidebar_font_md\": false,\n\n  // Increase font size of the sidebar to 13 px\n  \"theme_sidebar_font_lg\": false,\n\n  // Increase font size of the sidebar to 14 px\n  \"theme_sidebar_font_xl\": false,\n\n  //\n  // >> 7.3 Sidebar Indent\n  //\n\n  // Reduce indent of the sidebar rows to extra small\n  \"theme_sidebar_indent_xs\": false,\n\n  // Reduce indent of the sidebar rows to small\n  \"theme_sidebar_indent_sm\": false,\n\n  // Reduce indent of the sidebar rows to medium\n  \"theme_sidebar_indent_md\": false,\n\n  // The default indent of the sidebar rows\n  \"theme_sidebar_indent_lg\": false,\n\n  // Increase indent of the sidebar rows to extra large\n  \"theme_sidebar_indent_xl\": false,\n\n  //\n  // >> 7.4 Sidebar Icons\n  //\n\n  // Hide file icons\n  \"theme_sidebar_file_icons_hidden\": false,\n\n  // Change folder icon to arrow\n  \"theme_sidebar_folder_arrow\": false,\n\n  // Show disclosure tree controls like in the default Sublime Text theme\n  \"theme_sidebar_disclosure\": false,\n\n  // Starting 3.0.0 `theme_sidebar_folder_monochrome` -> `theme_sidebar_folder_mono`\n  // Change folder color to monochrome\n  \"theme_sidebar_folder_mono\": false,\n\n  // Starting 3.0.0 by default close button of the opened files is visible on hover only,\n  // this option enables you to show it always\n  \"theme_sidebar_close_always_visible\": false,\n\n  // Enable a beautiful Material UI folder icon\n  \"theme_sidebar_folder_materialized\": false,\n\n  // Enable a beautiful Atom UI folder icon\n  \"theme_sidebar_folder_atomized\": false,\n\n  // Reduce the saturation level of the sidebar icons to low\n  \"theme_sidebar_icon_saturation_lw\": false,\n\n  // Reduce the saturation level of the sidebar icons to medium\n  \"theme_sidebar_icon_saturation_md\": false,\n\n  // Reduce the saturation level of the sidebar icons to high\n  \"theme_sidebar_icon_saturation_hg\": false,\n\n  // The default saturation level of the sidebar icons (extra high)\n  \"theme_sidebar_icon_saturation_xh\": false,\n\n  //\n  // >> 7.5 Sidebar Misc\n  //\n\n  // Show right border of the sidebar\n  \"theme_sidebar_border\": false,\n\n  // Disable sidebar heading indents\n  // Useful when you want to optimize the space used by the sidebar\n  \"theme_sidebar_indent_top_level_disabled\": false,\n\n  // Disable sidebar row background highlighting on hover\n  \"theme_sidebar_highlight_text_only\": false,\n\n  // Disable sidebar row background highlighting on selected items\n  \"theme_sidebar_highlight_selected_text_only\": false,\n\n  // Starting 3.0.0 sidebar labels have regular font weight by default,\n  // this option make them bold again\n  \"theme_sidebar_heading_bold\": false,\n\n  //\n  // > 8 Status Bar\n  // -----------------------------------\n  // Status bar options enable you to control the size and font size of\n  // the status bar.\n\n  //\n  // >> 8.1 Status Bar Size\n  //\n\n  // Reduce size of the status bar to extra small\n  \"theme_statusbar_size_xs\": false,\n\n  // The default size of the status bar\n  \"theme_statusbar_size_sm\": false,\n\n  // Increase size of the status bar to medium\n  \"theme_statusbar_size_md\": false,\n\n  // Increase size of the status bar to large\n  \"theme_statusbar_size_lg\": false,\n\n  // Increase size of the status bar to extra large\n  \"theme_statusbar_size_xl\": false,\n\n  //\n  // >> 8.2 Status Bar Font\n  //\n\n  // Make status bar labels bold\n  \"theme_statusbar_label_bold\": false,\n\n  // Reduce font size of the status bar to 10 px\n  \"theme_statusbar_font_xs\": false,\n\n  // The default font size of the status bar is 11 px\n  \"theme_statusbar_font_sm\": false,\n\n  // Increase font size of the status bar to 12 px\n  \"theme_statusbar_font_md\": false,\n\n  // Increase font size of the status bar to 13 px\n  \"theme_statusbar_font_lg\": false,\n\n  // Increase font size of the status bar to 14 px\n  \"theme_statusbar_font_xl\": false,\n\n  //\n  // >> 8.3 Status Bar Misc\n  //\n\n  // This option enables you to colorize the status bar\n  \"theme_statusbar_colored\": false,\n\n  // Enable a beautiful Material UI panel switcher icon\n  \"theme_panel_switcher_materialized\": false,\n\n  // Enable a beautiful Atom UI panel switcher icon\n  \"theme_panel_switcher_atomized\": false,\n\n  //\n  // > 9 Scrollbars\n  // -----------------------------------\n  // Scrollbars options enable you to control the appearance of the scrollbars.\n\n  // Set line scrollbars\n  \"theme_scrollbar_line\": false,\n\n  // Make colored scrollbars\n  // Works only with `theme_scrollbar_line: true`\n  \"theme_scrollbar_colored\": false,\n\n  // Enable rounded scrollbars\n  \"theme_scrollbar_rounded\": false,\n\n  // Enable semi overlayed scrollbars\n  // Works only with `\"overlay_scroll_bars\": \"disabled\"`\n  \"theme_scrollbar_semi_overlayed\": false,\n\n  //\n  // > 10 Tooltips\n  // -----------------------------------\n\n  // Reduce font size of the tooltips to 10 px\n  \"theme_tooltips_font_xs\": false,\n\n  // The default font size of the tooltips is 11 px\n  \"theme_tooltips_font_sm\": false,\n\n  // Increase font size of the tooltips to 12 px\n  \"theme_tooltips_font_md\": false,\n\n  // Increase font size of the tooltips to 13 px\n  \"theme_tooltips_font_lg\": false,\n\n  // Increase font size of the tooltips to 14 px\n  \"theme_tooltips_font_xl\": false,\n\n  //\n  // > 11 Grid\n  // -----------------------------------\n\n  // Set border size of the grid to 1px\n  \"theme_grid_border_size_xs\": false,\n\n  // Set border size of the grid to 4px\n  \"theme_grid_border_size_sm\": false,\n\n  // Set border size of the grid to 6px\n  \"theme_grid_border_size_md\": false,\n\n  // Set border size of the grid to 8px\n  \"theme_grid_border_size_lg\": false,\n\n  // Set border size of the grid to 10px\n  \"theme_grid_border_size_xl\": false,\n\n  //\n  // > 12 Popups\n  // -----------------------------------\n\n  // Starting 3.0.0 autocomplete selected item has no colored background,\n  // this option turns it back\n  \"theme_autocomplete_item_selected_colored\": false,\n\n  // Add popup border (also affects autocomplete border)\n  \"theme_popup_border_visible\": false,\n\n  //\n  // > 13 Minimap\n  // -----------------------------------\n\n  // Reduce the opacity of the minimap viewport to extra low\n  \"theme_minimap_viewport_opacity_xlw\": false,\n\n  // The default opacity of the minimap viewport (low)\n  \"theme_minimap_viewport_opacity_lw\": false,\n\n  // Increase the opacity of the minimap viewport to medium\n  \"theme_minimap_viewport_opacity_md\": false,\n\n  // Increase the opacity of the minimap viewport to high\n  \"theme_minimap_viewport_opacity_hg\": false,\n\n  // Increase the opacity of the minimap viewport to extra high\n  \"theme_minimap_viewport_opacity_xh\": false,\n\n  // Increase the opacity of the minimap viewport to extra extra high\n  \"theme_minimap_viewport_opacity_xxh\": false\n}\n",
+					"file": "/D/Program Files (x64)/Sublime Text 3/Data/Packages/Boxy Theme/Preferences.sublime-settings",
+					"file_size": -1,
+					"file_write_time": -1,
+					"settings":
+					{
+						"buffer_size": 21630,
+						"line_ending": "Windows",
+						"read_only": true,
+						"scratch": true
+					}
+				},
+				{
+					"file": "/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 144,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 71.0,
+				"last_filter": "boxy",
+				"selected_items":
+				[
+					[
+						"boxy",
+						"Boxy Theme: Preferences"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"codein",
+						"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 540.0
+			},
+			"console":
+			{
+				"height": 130.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/D/Program Files (x64)/Adobe/Adobe Premiere Pro CC 2017/Adobe Premiere Pro.exe",
+				"/C/Users/Administrator/Desktop/改进汇总表（01.24）.xlsx",
+				"/F/vue_honsen/src/main.js",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/insert_date.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/insert_date.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/DocBlockr/README.md",
+				"/F/vue_honsen/src/components/common/z-recommend.vue",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/Minify/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/trailing_spaces.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+				"/F/vue_honsen/src/components/business/caseEdit.vue"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/D/Program Files (x64)/Sublime Text 3/Data/Packages/Boxy Theme/Preferences.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 21630,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										21630,
+										21630
+									]
+								],
+								"settings":
+								{
+									"auto_complete": true,
+									"edit_settings_other_view_id": 38,
+									"edit_settings_view": "base",
+									"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"file": "/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 144,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"edit_settings_other_view_id": 37,
+									"edit_settings_view": "user",
+									"origin_encoding": "ASCII",
+									"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 42.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,-1,-1,-1,-1,1034,50,50,1410",
+			"project": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 281.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 5,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
