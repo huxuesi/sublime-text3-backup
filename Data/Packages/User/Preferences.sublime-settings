@@ -1,15 +1,9 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"detetect_indentation": true,
-	"dictionary": "Packages/Language - English/en_US.dic",
 	"font_size": 14,
 	"ignored_packages":
 	[
-		"0_package_control_loader",
+		"Markdown",
 		"Vintage"
-	],
-	"show_encoding": true,
-	"tab_size": 4,
-	"translate_tabs_to_spaces": true,
-	"update_check": false
+	]
 }

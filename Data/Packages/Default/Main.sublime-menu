@@ -208,7 +208,7 @@
                 [
                     { "command": "close_tag", "caption": "关闭标签" },
                     { "command": "expand_selection", "args": {"to": "tag"}, "caption": "展开选择到标签" },
-                    { "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" }, "caption": "用标签自动换行选择" }
+                    { "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" }, "caption": "用标签自动换行选择" }
                 ]
             },
             {
@@ -265,6 +265,7 @@
                 [
                     { "command": "wrap_lines", "caption": "标尺处自动换行" },
                     { "command": "wrap_lines", "args": {"width": 70}, "caption": "每 70 个字符自动换行" },
+                    { "command": "wrap_lines", "args": {"width": 72}, "caption": "每 72 个字符自动换行" },
                     { "command": "wrap_lines", "args": {"width": 78}, "caption": "每 78 个字符自动换行" },
                     { "command": "wrap_lines", "args": {"width": 80}, "caption": "每 80 个字符自动换行" },
                     { "command": "wrap_lines", "args": {"width": 100}, "caption": "每 100 个字符自动换行" },
@@ -584,6 +585,7 @@
                     { "command": "set_setting", "args": {"setting": "wrap_width", "value": 0}, "caption": "自动", "checkbox": true },
                     { "caption": "-" },
                     { "command": "set_setting", "args": {"setting": "wrap_width", "value": 70}, "caption": "70", "checkbox": true },
+                    { "command": "set_setting", "args": {"setting": "wrap_width", "value": 72}, "caption": "72", "checkbox": true },
                     { "command": "set_setting", "args": {"setting": "wrap_width", "value": 78}, "caption": "78", "checkbox": true },
                     { "command": "set_setting", "args": {"setting": "wrap_width", "value": 80}, "caption": "80", "checkbox": true },
                     { "command": "set_setting", "args": {"setting": "wrap_width", "value": 100}, "caption": "100", "checkbox": true },
@@ -597,6 +599,7 @@
                     { "command": "set_setting", "args": {"setting": "rulers", "value": []}, "caption": "无", "checkbox": true },
                     { "caption": "-" },
                     { "command": "set_setting", "args": {"setting": "rulers", "value": [70]}, "caption": "70", "checkbox": true },
+                    { "command": "set_setting", "args": {"setting": "rulers", "value": [72]}, "caption": "72", "checkbox": true },
                     { "command": "set_setting", "args": {"setting": "rulers", "value": [78]}, "caption": "78", "checkbox": true },
                     { "command": "set_setting", "args": {"setting": "rulers", "value": [80]}, "caption": "80", "checkbox": true },
                     { "command": "set_setting", "args": {"setting": "rulers", "value": [100]}, "caption": "100", "checkbox": true },
@@ -738,7 +741,7 @@
             },
             { "command": "build", "caption": "编译(B)", "mnemonic": "B" },
             { "command": "build", "args": {"select": true}, "caption": "用…编译" },
-            { "command": "exec", "args": {"kill": true}, "caption": "取消编译(C)", "mnemonic": "C" },
+            { "command": "cancel_build", "caption": "取消编译(C)", "mnemonic": "C" },
             {
                 "caption": "编译结果(R)",
                 "mnemonic": "R",
@@ -759,10 +762,21 @@
                 "children": [ { "command": "$macros" } ]
             },
             { "caption": "-" },
-            { "command": "new_plugin", "caption": "新建插件…" },
-            { "command": "new_snippet", "caption": "新建代码段…" },
-            { "command": "new_syntax", "caption": "新建语法定义…" },
-            { "command": "convert_syntax", "caption": "转换语法文件" },
+            {
+                "caption": "插件开发",
+                "children":
+                [
+                    { "command": "new_plugin", "caption": "新建插件…" },
+                    { "command": "new_snippet", "caption": "新建代码片段…" },
+                    { "command": "new_syntax", "caption": "新建语法定义…" },
+                    { "command": "convert_syntax", "caption": "转换语法文件" },
+                    { "caption": "-" },
+                    { "command": "profile_plugins", "caption": "插件性能报告" },
+                    { "caption": "-" },
+                    { "command": "show_scope_name", "caption": "显示节点名字" },
+                ]
+            },
+            { "command": "install_package_control", "caption": "安装包管理器…" },
             { "caption": "-", "id": "end" }
         ]
     },
@@ -812,47 +826,41 @@
         [
             { "command": "open_dir", "args": {"dir": "$packages"}, "caption": "浏览插件目录(B)…", "mnemonic": "B" },
             { "caption": "-" },
-            { "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"}, "caption": "设置 – 默认" },
             {
-                "command": "open_file", "args":
+                "command": "edit_settings", "args":
                 {
-                    "file": "${packages}/User/Preferences.sublime-settings",
-                    "contents": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by file type specific settings.\n{\n\t$0\n}\n"
+                    "base_file": "${packages}/Default/Preferences.sublime-settings",
+                    "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
                 },
-                "caption": "设置 – 用户"
+                "caption": "设置"
             },
+            { "command": "edit_syntax_settings", "caption": "设置 – 特定语法" },
             {
-                "caption": "设置 – 更多",
-                "children":
-                [
-                    { "command": "open_file_settings", "caption": "特定语法 – 用户" },
-                    {
-                        "command": "open_file", "args":
-                        {
-                            "file": "${packages}/User/Distraction Free.sublime-settings",
-                            "contents": "{\n\t$0\n}\n"
-                        },
-                        "caption": "无干扰模式 – 用户"
-                    }
-                ]
+                "command": "edit_settings", "args":
+                {
+                    "base_file": "${packages}/Default/Distraction Free.sublime-settings",
+                    "default": "{\n\t$0\n}\n"
+                },
+                "caption": "设置 – 无干扰模式"
             },
             { "caption": "-" },
             {
-                "command": "open_file", "args":
+                "command": "edit_settings", "args":
                 {
-                    "file": "${packages}/Default/Default ($platform).sublime-keymap"
+                    "base_file": "${packages}/Default/Default ($platform).sublime-keymap",
+                    "default": "[\n\t$0\n]\n"
                 },
-                "caption": "按键绑定 – 默认"
-            },
-            {
-                "command": "open_file", "args":
-                {
-                    "file": "${packages}/User/Default ($platform).sublime-keymap",
-                    "contents": "[\n\t$0\n]\n"
-                },
-                "caption": "按键绑定 – 用户"
+                "caption": "快捷键设置"
             },
             { "caption": "-" },
+            {
+                "caption": "配色方案…",
+                "command": "select_color_scheme"
+            },
+            {
+                "caption": "主题…",
+                "command": "select_theme"
+            },
             {
                 "caption": "字体",
                 "children":
@@ -863,10 +871,6 @@
                     { "command": "reset_font_size", "caption": "默认" }
                 ]
             },
-            {
-                "caption": "配色方案",
-                "children": [ { "command": "$color_schemes" } ]
-            }
         ]
     },
     {
@@ -878,6 +882,8 @@
             { "command": "open_url", "args": {"url": "http://www.sublimetext.com/docs/3/"}, "caption": "在线文档" },
             { "command": "open_url", "args": {"url": "http://twitter.com/sublimehq"}, "caption": "官方Twitter" },
             { "command": "open_url", "args": {"url": "http://i.rexdf.org"}, "caption": "汉化 by Rexdf" },
+            { "caption": "-" },
+            { "command": "show_progress_window", "caption": "索引状态…" },
             { "caption": "-" },
             { "command": "purchase_license", "caption": "购买授权"},
             { "command": "show_license_window", "caption": "输入注册码" },

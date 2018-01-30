@@ -4,13 +4,12 @@
 		"/F/vue_honsen"
 	],
 	"last_version": 3143,
-	"last_window_id": 1,
+	"last_window_id": 4,
 	"log_indexing": false,
 	"settings":
 	{
-	},
-	"windows":
-	[
+		"new_window_height": 889.0,
+		"new_window_settings":
 		{
 			"auto_complete":
 			{
@@ -18,26 +17,30 @@
 				[
 				]
 			},
-			"buffers":
-			[
-			],
-			"build_system": "",
 			"build_system_choices":
 			[
 			],
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 392.0,
-				"last_filter": "",
+				"height": 302.0,
+				"last_filter": "install",
 				"selected_items":
 				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
 				],
-				"width": 412.0
+				"width": 540.0
 			},
 			"console":
 			{
-				"height": 178.0,
+				"height": 130.0,
 				"history":
 				[
 					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -54,6 +57,12 @@
 			},
 			"file_history":
 			[
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/Minify/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/trailing_spaces.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+				"/F/vue_honsen/src/components/business/caseEdit.vue"
 			],
 			"find":
 			{
@@ -85,6 +94,169 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 225.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1169.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 368.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"codein",
+						"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 540.0
+			},
+			"console":
+			{
+				"height": 130.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/F/vue_honsen/src/main.js",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/insert_date.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/insert_date.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/DocBlockr/README.md",
+				"/F/vue_honsen/src/components/common/z-recommend.vue",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/Minify/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Minify.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/trailing_spaces.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+				"/F/vue_honsen/src/components/business/caseEdit.vue"
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					";\n"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
 			"groups":
 			[
 				{
@@ -95,11 +267,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 30.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 42.0
 			},
 			"layout":
 			{
@@ -129,11 +301,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-1,-1,-1,718,710,180,1366",
+			"position": "0,0,1,-1,-1,-1,-1,1091,431,107,1791",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -171,7 +343,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 171.0,
+			"side_bar_width": 225.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

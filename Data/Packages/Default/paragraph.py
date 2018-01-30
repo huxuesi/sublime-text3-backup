@@ -1,8 +1,11 @@
-import sublime, sublime_plugin
-import string
-import textwrap
 import re
+import textwrap
+import unicodedata
+
 import Default.comment
+import sublime
+import sublime_plugin
+
 
 def previous_line(view, sr):
     """sr should be a Region covering the entire hard line"""
@@ -10,6 +13,7 @@ def previous_line(view, sr):
         return None
     else:
         return view.full_line(sr.begin() - 1)
+
 
 def next_line(view, sr):
     """sr should be a Region covering the entire hard line, including
@@ -22,17 +26,19 @@ def next_line(view, sr):
 
 separating_line_pattern = re.compile("^[\\t ]*\\n?$")
 
+
 def is_paragraph_separating_line(view, sr):
-    return separating_line_pattern.match(view.substr(sr)) != None
+    return separating_line_pattern.match(view.substr(sr)) is not None
+
 
 def has_prefix(view, line, prefix):
     if not prefix:
         return True
 
-    line_start = view.substr(sublime.Region(line.begin(),
-        line.begin() + len(prefix)))
+    line_start = view.substr(sublime.Region(line.begin(), line.begin() + len(prefix)))
 
     return line_start == prefix
+
 
 def expand_to_paragraph(view, tp):
     sr = view.full_line(tp)
@@ -47,8 +53,7 @@ def expand_to_paragraph(view, tp):
     dataStart = Default.comment.advance_to_first_non_white_space_on_line(view, sr.begin())
     for c in line_comments:
         (start, disable_indent) = c
-        comment_region = sublime.Region(dataStart,
-            dataStart + len(start))
+        comment_region = sublime.Region(dataStart, dataStart + len(start))
         if view.substr(comment_region) == start:
             required_prefix = view.substr(sublime.Region(sr.begin(), comment_region.end()))
             break
@@ -57,7 +62,7 @@ def expand_to_paragraph(view, tp):
     prev = sr
     while True:
         prev = previous_line(view, prev)
-        if (prev == None or is_paragraph_separating_line(view, prev) or
+        if (prev is None or is_paragraph_separating_line(view, prev) or
                 not has_prefix(view, prev, required_prefix)):
             break
         else:
@@ -67,13 +72,14 @@ def expand_to_paragraph(view, tp):
     next = sr
     while True:
         next = next_line(view, next)
-        if (next == None or is_paragraph_separating_line(view, next) or
+        if (next is None or is_paragraph_separating_line(view, next) or
                 not has_prefix(view, next, required_prefix)):
             break
         else:
             last = next.end()
 
     return sublime.Region(first, last)
+
 
 def all_paragraphs_intersecting_selection(view, sr):
     paragraphs = []
@@ -84,8 +90,8 @@ def all_paragraphs_intersecting_selection(view, sr):
 
     while True:
         line = next_line(view, para)
-        if line == None or line.begin() >= sr.end():
-            break;
+        if line is None or line.begin() >= sr.end():
+            break
 
         if not is_paragraph_separating_line(view, line):
             para = expand_to_paragraph(view, line.begin())
@@ -110,30 +116,29 @@ class ExpandSelectionToParagraphCommand(sublime_plugin.TextCommand):
 
 
 class WrapLinesCommand(sublime_plugin.TextCommand):
-    line_prefix_pattern = re.compile("^\W+")
-
     def extract_prefix(self, sr):
         lines = self.view.split_by_newlines(sr)
         if len(lines) == 0:
             return None
 
-        initial_prefix_match = self.line_prefix_pattern.match(self.view.substr(
-            lines[0]))
-        if not initial_prefix_match:
+        prefix = ''
+        for char in self.view.substr(lines[0]):
+            cat = unicodedata.category(char)[0]
+            if ord(char) > 32 and cat != 'Z' and cat != 'P':
+                break
+            prefix += char
+
+        if not prefix:
             return None
 
-        prefix = self.view.substr(sublime.Region(lines[0].begin(),
-            lines[0].begin() + initial_prefix_match.end()))
-
         for line in lines[1:]:
-            if self.view.substr(sublime.Region(line.begin(),
-                    line.begin() + len(prefix))) != prefix:
+            if self.view.substr(sublime.Region(line.begin(), line.begin() + len(prefix))) != prefix:
                 return None
 
         return prefix
 
     def width_in_spaces(self, str, tab_width):
-        sum = 0;
+        sum = 0
         for c in str:
             if c == '\t':
                 sum += tab_width - 1
