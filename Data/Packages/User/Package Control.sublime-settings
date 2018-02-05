@@ -16,9 +16,9 @@
 		"ConvertToUTF8",
 		"DocBlockr",
 		"Emmet",
-		"FileDiffs",
 		"HTML-CSS-JS Prettify",
 		"InsertDate",
+		"Local History",
 		"MarkdownEditing",
 		"Minify",
 		"Package Control",
@@ -31,6 +31,7 @@
 		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint_d",
+		"Sublimerge 3",
 		"SyncedSidebarBg",
 		"TrailingSpaces",
 		"Vue Syntax Highlight"
