@@ -1,0 +1,663 @@
+@import './mixin.styl'
+
+html
+    height: 100%
+    line-height: 1.4
+
+body
+    font-size: 0.26rem
+    font-family: "Microsoft YaHei", sans-serif
+    color: #838383
+    margin: 0
+    padding: 0
+    width: 100%
+    height: 100%
+    overflow-x: hidden
+    overflow-y: auto
+a
+    color: #838383
+    text-decoration: none
+
+button, input
+    border: none
+    outline: none
+ul
+    margin: 0
+    padding: 0
+li
+    list-style: none
+p
+    margin: 0
+    word-break: break-all
+    word-wrap: break-word
+
+input, textarea
+    box-sizing: border-box
+    display: inline-block
+
+.red
+    color: #db2e2e !important
+
+.green
+    color: #17b029 !important
+
+.appwrap
+    width: 7.5rem
+    margin: 0 auto
+    padding-bottom: 55px
+    box-sizing: border-box
+
+.appmiddlewrap
+    width: 6.9rem
+    margin: 0 auto
+    box-sizing: border-box
+
+.appsmallwrap
+    width: 6.6rem
+    margin: 0 auto
+    box-sizing: border-box
+
+.clearboth:after
+    content: ''
+    display: block
+    opacity: 0
+    clear: both
+    height: 0
+    font-size: 0
+
+.singleellipsis
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+
+/*评论*/
+.commenthidebtn
+    height: 0.54rem
+    padding: 0 0.3rem
+    background: #00aeff
+    border-radius: 3px
+    color: #fff
+    img
+        width: 0.28rem
+        vertical-align: top
+        margin: 0 0.1rem 0 0
+
+.editiptwrap
+    border: 1px solid #3dc1ff
+    border-radius: 3px
+    background: #fff
+    .editiptleft
+        margin-right: 0.88rem
+    .editipt
+        width: 100%
+        height: 0.78rem
+        padding: 0 0 0 0.2rem
+        border-radius: 3px
+        box-sizing: border-box
+    .editiptspan
+        display: inline-block
+        float: right
+        width: 0.88rem
+        height: 0.78rem
+        background: url(/static/icon/submit_icon.png) no-repeat center
+        background-size: 0.35rem auto
+    &.searchwrap
+        width: 6.06rem
+        .editipt
+            width: 5.36rem
+            padding: 0 0.1rem 0 0.64rem
+            background: url(../../assets/images/iconsearch.png) no-repeat 0.19rem center
+            background-size: 0.32rem
+
+.comment_content
+    margin-top: 0.3rem
+    position: relative
+    &:after
+        content: ''
+        position: absolute
+        top: -0.2rem
+        left: 0.18rem
+        toparrow(0.2rem, #f4fbff)
+    .comment_list
+        padding: 0.2rem 0.24rem
+        background: #f4fbff
+        margin-bottom: 0.2rem
+        p
+            padding: 0.1rem 0
+            color: #666
+            margin-bottom: 0
+            &:active
+                background: #eee
+            a
+                color: #00699b
+        // .second-replywrap
+        //     padding-left: 0.22rem
+    .replyfileicon
+        display: inline-block
+        height: 0.3rem
+        width: 0.3rem
+        margin-left: 0.2rem
+        vertical-align: middle
+        background: url(/static/icon/upfileimg_icon.png) no-repeat center
+        background-size: 0.3rem auto
+
+.bizcomment
+    .comment_content
+        padding: 0
+    .tit
+        color: #8b8b8b
+        margin-bottom: 0
+        margin-top: 0.18rem
+        font-size: 0.26rem
+        font-weight: bold
+
+.seemore
+    text-align: center
+    margin: 0.2rem 0
+    a
+        color: #449aec
+    span
+        color: #bbb
+/*end*/
+
+/*账号页相关*/
+.accounttitle
+    text-align: center
+    font-size: 0.4rem
+    color: #378bda
+    margin-bottom: 0.58rem
+
+.toregister,.tologin
+    font-size: 0.28rem
+    text-align: right
+    a
+        color: #3dc1ff
+        text-decoration: underline
+
+.tologin
+    margin-top: 0.44rem
+
+.accountipt
+    height: 0.72rem
+    width: 100%
+    border: 1px solid #b4c6d1
+    padding: 0 0.28rem
+    border-radius: 3px
+    box-sizing: border-box
+
+.accountbtn
+    height: 0.8rem
+    width: 100%
+    background: #3dc1ff
+    border-radius: 3px
+    color: #fff
+    font-size: 0.29rem
+    box-shadow: 1px 2px 1px #ccc
+    padding: 0
+
+.form-group
+    width: 4.8rem
+    margin: 0 auto 0.35rem
+    .code
+        width: 2.4rem
+    .codeimg
+        display: inline-block
+        float: right
+        width: 1.74rem
+        height: 0.7rem
+        vertical-align: middle
+        border: 1px solid #7793ca
+        img
+            width: 100%
+            height: 100%
+    .getcode
+        color: #fff
+        float: right
+        width: 2.25rem
+        height: 0.72rem
+        background: #3dc1ff
+        border-radius: 3px
+        box-shadow: 1px 1px 1px #ccc
+    .accountbtn
+        margin-top: 0.13rem
+    &.error
+        color: #f00
+        text-align: center
+    .disable
+        background: #9e9e9e
+    .erroript
+        border: 1px solid #f00
+
+.followbtnwrap
+    a
+        text-align: center
+        display: inline-block
+        width: 1.49rem
+        height: 0.53rem
+        line-height: 0.53rem
+        border-radius: 3px
+        color: #fff
+        font-size: 0.24rem
+        background: #00aeff
+        &.nofollowbtn
+            background: #b4c6d1
+        &.chatbtn
+            margin-left: 0.3rem
+        &:first-child
+            margin-left: 0
+.loginout
+    display: block
+    width: 5rem
+    height: 0.65rem
+    margin: 0.2rem auto 0 auto
+    background: #f76868
+    color: #fff
+    font-size: 0.27rem
+    border-radius: 6px
+/*end*/
+
+/*加载*/
+.mint-loadmore-top
+    span
+        display: inline-block
+        vertical-align: middle
+        transition: all 0.4s
+    .is-rotate
+        transform: rotate(-180deg)
+
+.mint-loadmore-bottom
+    margin-bottom: 0
+    span
+        display: inline-block
+        vertical-align: middle
+/*end*/
+
+/*fix*/
+.backtag + .lawyerlistdiv
+    .lawyerlist
+        padding-top: 0 !important
+
+.searchbacktag + .lawyerlistdiv
+    .searchwrap
+        padding-top: 0 !important
+
+/*弹出层*/
+.mint-popup
+    width: 5.5rem
+    padding: 0.22rem 0.3rem
+    border-radius: 4px
+    .popuptitle
+        color: #333
+        font-size: 0.26rem
+        margin-bottom: 0.14rem
+    .filesitem
+        margin: 0.1rem 0
+        .downfile
+            float: right
+            color: #3dc1ff
+            text-decoration: underline
+        .filename
+            display: block
+            color: #3dc1ff
+            margin-right: 0.8rem
+
+/*搜索下的返回分类*/
+.searchbacktag
+    display: block
+    text-align: right
+    margin-bottom: 0
+    height: 0.6rem
+    line-height: 0.6rem
+    color: #8a8ace
+    padding: 0 0.45rem
+    font-size: 0.25rem
+    font-weight: bold
+
+/*消息动态样式*/
+.message
+    .listul
+        li
+            &>p
+                .filename
+                    float: left
+                    color: #4685bf
+                    display: inline-block
+                    overflow: hidden
+                    text-overflow: ellipsis
+                    white-space: nowrap
+                    vertical-align: middle
+                    max-width: 3.7rem
+                    img
+                        display: block
+                        width: 0.25rem
+                        margin-right: 9px
+                        float: left
+                .filedown
+                    float: left
+                    color: #4685bf
+                    text-decoration: underline
+                    margin: 0 0 0 0.07rem
+
+/*动态文章内容*/
+.articlecontent
+    padding: 0.4rem 0 0.3rem
+    a
+        color: #3d96ce !important
+    img
+        max-width: 100% !important
+        height: auto !important
+    .post_img_hidetip
+        text-align: center
+        border: 1px dotted #fe8e04
+        font-size: 0.22rem
+    p
+        margin: 0.1rem 0
+    table
+        border-collapse: collapse
+        border-spacing: 0
+        margin: 0.1rem auto
+        width: 100% !important
+        /*分栏tabel*/
+        &.fl_plugin
+            border-collapse: separate !important
+            border-spacing: 5px
+        th,tr
+            width: 100%
+            border: 1px solid #d6d6d6
+            word-wrap: break-word
+            word-break: break-all
+        td
+            padding: 10px
+            border: 1px solid #d6d6d6
+    .ck_file_read
+        margin: 0 10px
+        background-color: #f9f9f9
+        color: #235895
+    .ueditor_file
+        display: block
+        margin: 0.1rem 0
+        .f_downLoad
+            margin-left: 10px
+            display: inline-block
+            width: 0.3rem
+            height: 0.3rem
+            vertical-align: middle
+            background: url(/static/icon/download_icon.png) center no-repeat
+            background-size: 0.25rem
+    .filetypeimg
+        vertical-align: middle
+        width: 0.3rem
+        margin: -0.04rem 0.08rem 0 0
+
+.nodatalist
+    margin-top: 0.5rem
+    padding-bottom: 0.5rem
+    text-align: center
+    color: #a0a0a0
+    .lodingdataicon
+        display: inline-block
+
+.floatpanel
+    background: #fff
+    border-radius: 3px
+    box-shadow: 0 0 16px rgba(131,131,131,0.4)
+    z-index: 10
+
+.commonformitem
+    margin: 0.3rem 0
+    &:after
+        content: ''
+        display: block
+        opacity: 0
+        clear: both
+        height: 0
+        font-size: 0
+    &.require
+        position: relative
+        &:before
+            content: '*'
+            color: #f00
+            font-size: 0.36rem
+            line-height: 0.74rem
+            position: absolute
+            top: 0
+            right: 101%
+    .commonformitemtit
+        font-size: 0.3rem
+        color: #333
+        line-height: 0.7rem
+    .commonformitemright
+        display: inline-block
+        float: right
+        width: 4.2rem
+.commomiptclass
+    width: 100%
+    min-height: 0.74rem
+    padding: 0.1rem 0.25rem
+    border-radius: 3px
+    border: 1px solid #b4c6d1
+    box-sizing: border-box
+    line-height: 1.4
+.commonbtnclass
+    height: 0.7rem
+    line-height: 0.7rem
+    text-align: center
+    font-size: 0.28rem
+    background: #3dc1ff
+    border-radius: 3px
+    width: 100%
+    color: #fff
+.commonselectpanel
+    margin-top: -2px
+    padding: 0.24rem 0.45rem 0
+    ul
+        li
+            width: 50%
+            float: left
+            font-size: 0.28rem
+            color: #666
+            margin-bottom: 0.3rem
+            input[type="checkbox"]
+                vertical-align: middle
+.ghostcommonbtnclass
+    background: #fff
+    border: 1px solid #3dc1ff
+    color: #3dc1ff
+.sanjiaoxingbg
+    padding-right: 10%
+    background: #fff url(/static/icon/down_sanjiao_icon.png) no-repeat 95% 50%
+    background-size: 0.17rem auto
+    appearance: none
+    -moz-appearance: none
+    -webkit-appearance: none
+.fileblockwrap
+    margin: 0.25rem 0
+    .filetypeicon
+        display: inline-block
+        float: left
+        img
+            width: 0.29rem
+    a
+        margin: 0 0.7rem 0 0.44rem
+        text-decoration: underline
+        color: #3dc1ff
+        display: block
+    .delicon
+        display: inline-block
+        float: right
+        padding: 0 0.1rem
+        img
+            width: 0.34rem
+
+.accountheadtit
+    color: #333
+    padding: 0.2rem 0.45rem
+    font-size: 0.32rem
+    text-align: center
+    border-bottom: 1px solid #e5e5e5
+
+.personalnav
+    background: #fff
+    .personalnavlist
+        height: 1.23rem
+        line-height: 1.23rem
+        border-bottom: 1px solid #e5e5e5
+        font-size: 0.3rem
+        color: #333
+        position: relative
+        .name
+            display: inline-block
+            width: 5rem
+            overflow: hidden
+            text-overflow: ellipsis
+            white-space: nowrap
+        .icon
+            display: inline-block
+            position: absolute
+            top: 50%
+            right: 0.05rem
+            width: 0.17rem
+            height: 0.17rem
+            border: 0.03rem solid #b4c6d1
+            border-top: none
+            border-left: none
+            transform: translateY(-50%) rotate(-45deg)
+        .time
+            font-size: 0.24rem
+            color: #999
+            float: right
+        .reddot
+            display: inline-block
+            width: 0.15rem
+            height: 0.15rem
+            background: #f00
+            border-radius: 50%
+            vertical-align: middle
+            margin: 0 0.15rem 0 0
+
+.gray_btn
+    background-color: #b4c6d1
+
+// 菜单导航列表
+.v2personalnav
+    padding: 0 0 0.5rem
+    .v2personalnavitem
+        height: 1.06rem
+        line-height: 1.06rem
+        font-size: 0.3rem
+        color: #333
+        background: #fff
+        padding: 0 0.45rem
+        .v2personalnavitemcontent
+            position: relative
+            .v2personalnavitemtit
+                display: inline-block
+                img
+                    width: 0.38rem
+                    vertical-align: middle
+                    margin: 0 0.32rem 0 0.13rem
+                .v2personalnavitemsmalltit
+                    color: #747474
+                    white-space: nowrap
+                    display: inline-block
+                    max-width: 4.5rem
+            .iconright
+                float: right
+                display: inline-block
+                font-siz: 0.26rem
+                color: #747474
+                padding-right: 0.3rem
+                i
+                    display: inline-block
+                    position: absolute
+                    top: 50%
+                    right: 0
+                    width: 0.2rem
+                    height: 0.2rem
+                    border: 0.03rem solid #b4c6d1
+                    border-top: none
+                    border-left: none
+                    transform: translateY(-50%) rotate(-45deg)
+    .v2personalnavgroup
+        padding: 0.22rem 0 0
+        .v2personalnavitem
+            .v2personalnavitemcontent
+                border-bottom: 1px solid #e5e5e5
+            &:last-child
+                .v2personalnavitemcontent
+                    border-bottom: 0
+        & ~ .v2personalnavitem
+            margin: 0.22rem 0 0
+
+.v2bottomselectwrap
+    width: 7.5rem
+    padding-top: 0
+    .localtoolbar
+        border-bottom: 1px solid #e5e5e5
+        span
+            display: inline-block
+            width: 50%
+            text-align: center
+            line-height: 40px
+            font-size: 16px
+            color: #26a2ff
+        .quxiao
+            float: left
+        .queding
+            float: right
+
+.v2headwrap
+    .v2headinfo
+        margin-left: 0.92rem
+        .name
+            font-size: 0.28rem
+            color: #444
+        .time
+            font-size: 0.24rem
+            color: #bbb
+            margin-top: 0.03rem
+
+// 订单列表
+.paymentManagelist
+    padding: 0.4rem 0
+    border-bottom: 1px solid #e5e5e5
+    .tit
+        font-size: 0.32rem
+        color: #333
+        margin: 0 0 0.18rem
+    .des
+        font-size: 0.28rem
+        color: #b1b0b0
+        margin: 0.1rem 0 0
+    p:last-child
+        margin-bottom: 0
+    .graytit
+        color: #b1b0b0
+    .rinfo
+        float: right
+        .commonbtnclass
+            margin-top: 0.22rem
+            width: 1.34rem
+            height: 0.55rem
+            line-height: 0.55rem
+        .ckecklist
+            margin-top: 0.49rem
+            display: inline-block
+            width: 0.4rem
+            height: 0.4rem
+            input[type=checkbox]
+                display: none
+            .checkbg
+                display: inline-block
+                width: 100%
+                height: 100%
+                background: url(/static/icon/check_icon.png) center no-repeat
+                background-size: 100% 100%
+            input[type=checkbox]:checked + .checkbg
+                background-image: url(/static/icon/checked_icon.png)
+        .text
+            font-size: 0.3rem
+            color: #333
+
+.mint-indicator-mask
+    z-index: 1004

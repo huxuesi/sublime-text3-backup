@@ -1,0 +1,283 @@
+@import './scroll.styl'
+
+$active = #3dc1ff
+
+html,body
+    width: 100%
+    min-width 1200px
+    height: 100%
+    background: #ebebeb
+    padding 0 !important
+
+textarea
+    font-size 14px !important
+
+a:hover
+    color: #64cdff !important
+
+textarea.ivu-input
+    resize none
+
+.appwrap
+    width: 1200px
+    margin: 0 auto
+
+.wrap1150
+    width: 1150px
+    margin: 0 auto
+
+.topMargin
+    margin-top 24px
+
+.posirelative
+    position: relative
+
+.clearfix:after
+    display: block
+    content: '.'
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+
+.single_ellipsis
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+
+.ellipsis2
+    overflow: hidden
+    text-overflow: ellipsis
+    display: box
+    display: -webkit-box
+    line-clamp: 2
+    -webkit-line-clamp: 2
+    -webkit-box-orient: vertical
+
+// 全屏看图插件
+.viewer-button
+    background-color: #3dc1ff
+
+/* 灰色按钮 */
+.gray_btn
+    background: #becad0
+    border-color: #becad0
+    &:hover
+        background: #bfcbd2
+        border-color: #bfcbd2
+
+// 列表动效
+.grouplist-enter-active,.grouplist-leave-active
+    transition: all .4s
+.grouplist-enter,.grouplist-leave-to
+    opacity: 0
+    transform: scale(0.8)
+
+.grouplist2-enter-active
+  transition: all .3s
+.grouplist2-enter
+  opacity: 0
+  transform: translateX(20px)
+
+.opacity-enter-active,.opacity-leave-active
+    transition: all .2s
+.opacity-enter,.opacity-leave-to
+    opacity: 0
+    transform: translateX(-100px)
+
+// 头像vip标志
+.headimg
+    .img
+        width: 100%
+        height: 100%
+        border-radius: 50%
+        display: block
+    .icon
+        position: absolute
+        bottom: 0
+        right: 0
+
+// 浮动面板
+.floatpanel
+    background: #fff
+    border-radius: 3px
+    box-shadow: 0 0 16px rgba(131,131,131,0.4)
+    z-index: 10
+
+// 没有数据提示
+.nodatalist
+    color: #a0a0a0
+    font-size: 14px
+    text-align: center
+    padding: 10px 0
+
+.nodatalistcry
+    color: #999
+    text-align: center
+    padding: 80px 0
+    p
+        margin: 8px 0 0
+
+// 创建知识，案件按钮
+.post_list_creat_btn
+    position: absolute
+    top: 50%
+    right: 20px
+    height: 38px
+    margin-top: -19px
+    .add_icon
+        font-size: 25px
+        color: #3dc1ff
+        background-color: #fff
+        border-radius: 50%
+        line-height: 19px
+        display: inline-block
+        vertical-align: top
+        width: 22px
+        height: 22px
+        margin-left: 7px
+
+
+// loding转圈圈动画
+.spin-icon-load{
+    animation: ani-spin 1s linear infinite;
+}
+@keyframes ani-spin {
+    from { transform: rotate(0deg);}
+    50%  { transform: rotate(180deg);}
+    to   { transform: rotate(360deg);}
+}
+
+// 删除团队成员或客户 鼠标放上头像出现
+.hoverdeldiv
+    display: none
+    text-align: center
+    position: absolute
+    top: 0
+    font-size: 27px
+    color: #fff
+    line-height: 44px
+    background: rgba(0,0,0,0.4)
+
+/* 案件序号 */
+.catalog_index
+    float left
+    margin-right 10px
+    width 20px
+    height 20px
+    line-height 20px
+    border-radius 50%
+    color #fff
+    background-color #6a6a6a
+    font-size 12px
+    text-align center
+
+/* 三角形▲ */
+.triangle
+    display block
+    width 0
+    height 0
+    cursor pointer
+    border-left: 6px solid transparent
+    border-right: 6px solid transparent
+    border-top: 8px solid #868686
+    &.active
+        border-left: 5px solid transparent
+        border-right: 5px solid transparent
+        border-bottom: 8px solid #3dc1ff
+        border-top: none
+
+.piece_res
+    p
+        color #ff7272
+        font-size 12px
+        font-weight normal
+
+.radiocommon
+    display: inline-block
+    position: relative
+    line-height: 1
+    vertical-align: middle
+    cursor: pointer
+    padding: 3px
+    .radiocommoninner
+        display: inline-block
+        width: 16px
+        height: 16px
+        position: relative
+        top: 0
+        left: 0
+        background-color: #fff
+        border: 1px solid #dddee1
+        border-radius: 50%
+        transition: all .2s ease-in-out
+        &:after
+            position: absolute
+            width: 8px
+            height: 8px
+            left: 3px
+            top: 3px
+            border-radius: 6px
+            display: table
+            border-top: 0
+            border-left: 0
+            content: " "
+            background-color: #2d8cf0
+            opacity: 0
+            transition: all .2s ease-in-out
+            transform: scale(0)
+    &.checked
+        .radiocommoninner
+            border-color: #2d8cf0
+            &:after
+                opacity: 1
+                transform: scale(1)
+
+.commonselectsomethingwrapv2
+    width: 240px
+    position: absolute
+    top: 0
+    right: -239px
+    .toptit
+        height: 44px
+        line-height: 44px
+        padding: 0 17px
+        font-size: 16px
+        color: #333
+        border-bottom: 1px solid #e1e1e1
+    .topnav
+        display: flex
+        a
+            display: inline-block
+            width: 50%
+            height: 32px
+            font-sizeL 14px
+            color: #333
+            display: flex
+            align-items: center
+            justify-content: center
+            &.nohover
+                background: #efefef
+                color: #999
+
+.toggleimgnav
+    cursor: pointer
+    .hov
+        display: none
+    &:hover
+        .def
+            display: none
+        .hov
+            display: inline-block
+
+.addnewiconv2
+    color: #aaa
+    font-size: 24px
+    vertical-align: middle
+    margin-left: 3px
+    &:hover, &.hover
+        color: #1890ff
+        cursor: pointer
+/* 编辑器/iview样式 */
+@import './ivu.styl'
+@import './ue.styl'

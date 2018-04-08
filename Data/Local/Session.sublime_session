@@ -1,16 +1,18 @@
 {
 	"folder_history":
 	[
-		"/F/react-demo",
+		"/F/vue_honsen",
 		"/F/vue-itemone",
-		"/F/vue_honsen"
+		"/C/Users/Administrator/Desktop/vue-concise-slider",
+		"/F/vue-start",
+		"/F/react-demo"
 	],
 	"last_version": 3143,
-	"last_window_id": 22,
+	"last_window_id": 57,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 926.0,
+		"new_window_height": 905.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -18,40 +20,228 @@
 				"selected_items":
 				[
 					[
-						"add",
-						"addcuscommentForm"
+						"edit",
+						"editstate"
 					],
 					[
-						"margn",
-						"margin-bottom: 〔property〕"
+						"start",
+						"startend"
 					],
 					[
-						"margin",
-						"margin-top: 〔property〕"
+						"data",
+						"daterangeOptions"
 					],
 					[
-						"pro",
-						"problem"
+						"cur",
+						"curflowobj"
 					],
 					[
-						"lawyer",
-						"lawyerDisplayItem"
+						"sub",
+						"sub_fids"
 					],
 					[
-						"pre",
-						"pre-wrap〔value〕"
+						"curflo",
+						"curflowid"
 					],
 					[
-						"user",
-						"userinfo"
+						"curflow",
+						"curflowobj"
+					],
+					[
+						"big",
+						"bigfid"
+					],
+					[
+						"common",
+						"commonformv2"
 					],
 					[
 						"is",
-						"is_readed"
+						"is_editing"
+					],
+					[
+						"JSON",
+						"JSON.parse"
+					],
+					[
+						"rig",
+						"rightUsers"
+					],
+					[
+						"biz",
+						"bizGroup"
+					],
+					[
+						"no",
+						"noLawyer"
 					],
 					[
 						"case",
-						"case_comment"
+						"caseedittophead"
+					],
+					[
+						"trans",
+						"translate"
+					],
+					[
+						"font",
+						"font-size: 〔property〕"
+					],
+					[
+						"bottom",
+						"bottomformnav"
+					],
+					[
+						"bottomc",
+						"bottomcommentnav"
+					],
+					[
+						"pr",
+						"props\tReact: this.props."
+					],
+					[
+						"caseedi",
+						"caseeditv2"
+					],
+					[
+						"recent",
+						"recentChat"
+					],
+					[
+						"re",
+						"recentChat"
+					],
+					[
+						"addmem",
+						"addMemberv2"
+					],
+					[
+						"addm",
+						"addMemberv2"
+					],
+					[
+						"dis",
+						"display"
+					],
+					[
+						"his",
+						"historylist"
+					],
+					[
+						"get",
+						"getHistoryCaseList"
+					],
+					[
+						"lst",
+						"last-child〔pseudo-class〕"
+					],
+					[
+						"cuscre",
+						"cuscreator"
+					],
+					[
+						"seac",
+						"searchBizSortData"
+					],
+					[
+						"add",
+						"addparams"
+					],
+					[
+						"val",
+						"validate"
+					],
+					[
+						"open",
+						"openCreateCusPanel"
+					],
+					[
+						"getcase",
+						"getCaseSortData"
+					],
+					[
+						"time",
+						"timeFormat"
+					],
+					[
+						"tpl",
+						"tplitemtop"
+					],
+					[
+						"stat",
+						"static"
+					],
+					[
+						"cusname",
+						"cusnamesearch"
+					],
+					[
+						"pa",
+						"param"
+					],
+					[
+						"drag",
+						"dragIndex"
+					],
+					[
+						"follow",
+						"followDatas"
+					],
+					[
+						"all",
+						"allselect"
+					],
+					[
+						"for",
+						"form_info_key"
+					],
+					[
+						"clear",
+						"clearTimeout〔function〕"
+					],
+					[
+						"guid",
+						"guides"
+					],
+					[
+						"fi",
+						"fixed〔value〕"
+					],
+					[
+						"su",
+						"summary"
+					],
+					[
+						"cont",
+						"content"
+					],
+					[
+						"cance",
+						"cancelalltaskEdit"
+					],
+					[
+						"task",
+						"taskAllEditing"
+					],
+					[
+						"fin",
+						"finish"
+					],
+					[
+						"cancel",
+						"canceltaskEdit"
+					],
+					[
+						"pre",
+						"pre-line〔value〕"
+					],
+					[
+						"keep",
+						"keeprecordsnavlistwrap"
+					],
+					[
+						"type",
+						"typeInfo"
 					]
 				]
 			},
@@ -61,17 +251,41 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 357.0,
-				"last_filter": "install",
+				"height": 178.0,
+				"last_filter": "git status",
 				"selected_items":
 				[
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"git status",
 						"Git: Status"
+					],
+					[
+						"git mer",
+						"Git: Merge"
+					],
+					[
+						"git ch",
+						"Git: Checkout"
+					],
+					[
+						"sshtml",
+						"Set Syntax: HTML"
+					],
+					[
+						"Package Control: remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"git diff ",
+						"Git: Diff Current File"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
 					],
 					[
 						"boxy",
@@ -80,10 +294,6 @@
 					[
 						"codein",
 						"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
 					]
 				],
 				"width": 558.0
@@ -107,38 +317,105 @@
 			},
 			"file_history":
 			[
-				"/F/vue-itemone/src/components/account/toolnav.vue",
-				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/Local History/settings/LocalHistory.sublime-settings",
-				"/D/Program Files (x64)/Sublime Text 3/Data/Local/Auto Save Session.sublime_session",
-				"/D/Program Files (x64)/Sublime Text 3/Data/Local/Session.sublime_session",
-				"/F/vue-itemone/src/vueX/index.js",
-				"/F/vue-itemone/src/components/common/z-feedList.vue",
-				"/F/vue-itemone/node_modules/clean-css/lib/optimizer/level-2/restore.js",
-				"/F/vue-itemone/node_modules/clean-css/lib/optimizer/level-2/break-up.js",
-				"/F/vue-itemone/src/components/common/z-lawyerList.vue",
-				"/F/vue-itemone/src/components/account/cusComment.vue",
-				"/F/vue-itemone/src/components/account/problem.vue",
-				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-				"/F/vue-itemone/src/components/feed/knowDetails.vue",
-				"/F/vue-itemone/src/main.js",
-				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/SublimeCodeIntel.sublime-settings",
-				"/F/vue-itemone/src/components/common/z-headimg.vue",
-				"/F/vue-itemone/src/components/account/personalNavWrap.vue",
-				"/F/vue-itemone/src/router.js",
-				"/F/vue-itemone/src/common/stylus/base.styl",
-				"/F/vue-itemone/src/components/account/personalpostNav.vue",
-				"/F/vue-itemone/src/components/account/personalbizNav.vue",
-				"/F/vue-itemone/src/components/follow/recommend.vue",
-				"/F/vue-itemone/src/components/notice/notice.vue",
-				"/F/vue-itemone/src/components/account/selectLawyer.vue",
-				"/F/vue_honsen/src/components/personalSetter/identitySet.vue",
-				"/F/vue_honsen/src/components/personalSetter/accountSet.vue",
-				"/F/vue_honsen/src/components/login/bindAccount.vue",
-				"/F/vue_honsen/src/components/common/z-recommend.vue",
+				"/F/vue_honsen/src/components/business/caseEdit.vue",
+				"/F/vue_honsen/src/common/stylus/ivu.styl",
+				"/F/vue_honsen/src/components/common/z-caseFlowWrap.vue",
+				"/F/vue_honsen/index.html",
+				"/F/vue_honsen/src/common/stylus/base.styl",
+				"/F/vue_honsen/src/components/business/businessList_back.vue",
+				"/F/vue_honsen/src/components/personalCenter/personalCenter.vue",
+				"/F/vue_honsen/src/components/sideBar/chat.vue",
+				"/F/vue_honsen/src/components/business/caseEdit_back.vue",
+				"/F/vue_honsen/src/components/common/addMemberv2.vue",
 				"/F/vue_honsen/src/components/common/z-comment.vue",
+				"/F/vue_honsen/src/components/common/editorPost.vue",
+				"/F/vue_honsen/src/components/common/z-feedList.vue",
+				"/F/vue_honsen/src/components/business/caseFlow.vue",
+				"/F/vue_honsen/src/config.js",
+				"/F/vue_honsen/src/vueSocket.js",
+				"/F/vue_honsen/src/components/common/editor.vue",
+				"/F/vue_honsen/src/components/post/postList.vue",
+				"/F/vue_honsen/src/components/post/postRead.vue",
+				"/F/vue_honsen/src/components/videopage/videopage.vue",
+				"/F/vue_honsen/src/components/sideBar/fullcalendar.vue",
+				"/F/vue_honsen/src/components/sideBar/collect.vue",
+				"/F/vue_honsen/src/components/post/shareJiathis.vue",
+				"/F/vue_honsen/src/components/common/fileRead.vue",
+				"/F/vue_honsen/src/common/js/messageConvert.js",
+				"/F/vue_honsen/src/App.vue",
+				"/F/vue_honsen/static/js/jia.js",
+				"/F/vue_honsen/src/components/common/addMember.vue",
+				"/C/Users/Administrator/Desktop/下载",
+				"/F/vue_honsen/src/vueAxios.js",
+				"/F/vue_honsen/config/dev.env.js",
+				"/F/vue_honsen/config/prod.env.js",
+				"/F/vue_honsen/src/router.js",
+				"/F/vue_honsen/src/components/personalSetter/identitySet.vue",
+				"/F/vue_honsen/src/components/header/header.vue",
+				"/F/vue_honsen/src/components/header/news.vue",
+				"/F/vue_honsen/node_modules/coa/lib/cmd.js",
+				"/F/vue_honsen/dist/index.html",
+				"/F/vue_honsen/src/components/common/z-lawyersList.vue",
+				"/F/vue_honsen/src/components/business/businessList.vue",
+				"/F/vue_honsen/src/components/sideBar/calendarTip.vue",
+				"/F/vue_honsen/src/components/business/caseInfo.vue",
+				"/F/vue_honsen/src/components/post/postEdit.vue",
+				"/F/vue_honsen/package.json",
+				"/F/apollo/package.json",
+				"/F/vue_honsen/node_modules/iview/dist/styles/iview.css",
+				"/F/apollo/node_modules/iview/package.json",
+				"/F/apollo/node_modules/iview/README.md",
+				"/F/vue_honsen/src/common/config.less",
+				"/F/vue_honsen/src/common/directives/scrollUnique.js",
+				"/F/vue_honsen/src/common/stylus/mixin.styl",
+				"/F/vue_honsen/src/components/common/z-honsenInformation.vue",
+				"/C/Users/Administrator/Desktop/2017_弘商信息技术（深圳）有限公司(1).xml",
+				"/C/Users/Administrator/Desktop/vue-concise-slider/index.html",
+				"/F/vue_honsen/src/components/personalSetter/accountSet.vue",
+				"/F/vue_honsen/src/common/js/check.js",
+				"/F/vue_honsen/src/components/common/z-myFollow.vue",
+				"/F/vue_honsen/src/components/common/z-recommend.vue",
+				"/F/vue_honsen/src/components/personalSetter/personalSetter.vue",
+				"/F/vue_honsen/src/main.js",
+				"/F/vue_honsen/src/apiConfig.js",
+				"/F/vue_honsen/src/components/sideBar/calculation.vue",
+				"/F/vue_honsen/src/components/common/z-searchBox.vue",
+				"/F/vue_honsen/src/components/search/search.vue",
+				"/F/vue_honsen/src/components/business/caseRead.vue",
+				"/F/vue_honsen/src/components/login/login.vue",
+				"/D/Program Files (x64)/Sublime Text 3/Data/.sublime/Local History/F/vue_honsen/src/components/common/z-feedList-20180308092055.vue",
+				"/C/Users/Administrator/Desktop/a",
+				"/F/vue_honsen/src/components/sideBar/sideBase.vue",
+				"/F/vue_honsen/src/components/sideBar/sideBar.vue",
+				"/F/vue_honsen/src/components/sideBar/records.vue",
+				"/F/vue_honsen/src/components/sideBar/feedback.vue",
+				"/F/vue_honsen/src/common/stylus/ue.styl",
+				"/F/vue_honsen/src/common/directives/onlyNum.js",
+				"/F/vue_honsen/src/common/js/iview.js",
+				"/F/vue_honsen/src/components/recommend/recommend.vue",
+				"/F/vue_honsen/src/vueX/index.js",
+				"/F/vue_honsen/src/components/sideBar/shortNote.vue",
+				"/F/vue_honsen/src/components/personalCenter/question.vue",
+				"/F/vue_honsen/src/components/personalCenter/leaveWords.vue",
+				"/F/vue_honsen/src/components/personalCenter/evaluate.vue",
+				"/F/vue_honsen/src/components/common/z-sendBiz.vue",
+				"/F/vue_honsen/src/components/business/formTable.vue",
+				"/F/vue_honsen/node_modules/iview/src/components/menu/menu.vue",
+				"/F/vue_honsen/node_modules/iview/src/components/menu/submenu.vue",
+				"/F/vue_honsen/node_modules/iview/src/components/menu/menu-item.vue",
+				"/F/vue_honsen/src/components/passwordReset/passwordReset.vue",
+				"/F/vue_honsen/build/webpack.prod.conf.js",
+				"/F/vue_honsen/src/components/business/flowForm.vue",
+				"/F/vue_honsen/src/components/personalCenter/selectLawyer.vue",
+				"/F/vue_honsen/src/components/common/z-loginRegister.vue",
+				"/C/Users/Administrator/Desktop/bar-label-rotation.html",
+				"/F/vue_honsen/static/tool/banHijack.js",
+				"/F/vue_honsen/src/components/business/customerDetails.vue",
+				"/F/vue_honsen/src/common/js/authCodeT.js",
+				"/F/vue_honsen/src/common/js/ajax.js",
+				"/F/vue_honsen/src/components/login/bindAccount.vue",
 				"/D/Program Files (x64)/Adobe/Adobe Premiere Pro CC 2017/Adobe Premiere Pro.exe",
 				"/C/Users/Administrator/Desktop/改进汇总表（01.24）.xlsx",
-				"/F/vue_honsen/src/main.js",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/Default (Windows).sublime-keymap",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/insert_date.sublime-settings",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/insert_date.sublime-settings",
@@ -146,24 +423,25 @@
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/SublimeCodeIntel.sublime-settings",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/Minify/Minify.sublime-settings",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/Minify.sublime-settings",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/trailing_spaces.sublime-settings",
-				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
-				"/F/vue_honsen/src/components/business/caseEdit.vue"
+				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/TrailingSpaces/trailing_spaces.sublime-settings"
 			],
 			"find":
 			{
-				"height": 49.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
 				"height": 135.0,
 				"where_history":
 				[
-					"F:\\vue-itemone\\src",
-					""
+					"F:\\vue_honsen\\src",
+					"F:\\vue_honsen",
+					"F:\\vue_honsen\\src"
 				]
 			},
 			"find_state":
@@ -171,56 +449,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"toolnav",
-					"shortNote",
-					"curOrderInfo",
+					"casekeepcreateform",
+					"toDelCaseKeep",
 					"title",
-					"ellipsis",
-					"describe",
-					"describe2",
-					"describe3",
-					"describe",
-					"cusComment",
-					"problemlist",
-					"cusComment",
-					"isme",
-					"2",
-					"feedLoadMore",
-					"getHQposts",
-					"moment",
-					":",
-					"Indicator",
-					"Toast",
-					"cusCommentwrap",
-					"getModuleInfo",
-					"userinfo",
-					"headinfo",
-					"singleheadinfo",
-					"head",
-					"CTMList",
-					"getproblem",
-					"problemwrap",
-					"getproblem",
-					"problem",
-					"CTMList",
-					"lawyerBizListChild",
-					"v2personalnav",
-					"getCTMList",
-					"lawyerBizList",
-					"gettaguser",
-					"getuserip",
-					"gettaguser",
-					"getuserip",
-					"var",
-					"gotoPage",
-					"jobauth",
-					"selectLawyerOrtoBusiness",
-					"t",
-					"gotoPage",
-					"admin_auth",
-					"gettaguser",
-					"getuserip()",
-					"gotoPage"
+					"saveFlowKeep",
+					"os",
+					"needHonsen",
+					"RecentChat",
+					"recentChat",
+					"changeTimeRange",
+					"timeOptions",
+					"time",
+					",v",
+					",{",
+					"timeOptions",
+					" size=\"large\"",
+					"middleconnonnavwrap",
+					"title",
+					"saveFlowKeep",
+					"daterangeOptions",
+					"changeTimeRange",
+					"daterangeOptions",
+					"changeTimeRange",
+					"calendar_info.timerange",
+					"changeTimeRange",
+					"daterangeOptions",
+					"calendar_info.timerange",
+					"this.$refs",
+					"casekeepcreateform",
+					"tooglebottomnav",
+					"bottomcasekeepnav",
+					"tooglebottomnav",
+					"saveFlowKeep",
+					"save",
+					"saveFlowKeep",
+					"ruleValidate",
+					"casekeepcreateform",
+					"ctmname",
+					"saveflowkeep",
+					"navmenuClick",
+					"conwrap",
+					"navmenuClick",
+					"caseinfo",
+					"caseInfo",
+					"caseFlowKeep",
+					"middleconnonnavwrap",
+					"clearInterval",
+					"confirmClock",
+					"curflowobj",
+					"oRole",
+					"showcaseinfo",
+					"submitFlowContent",
+					"nodatalistcry",
+					"curflowobj",
+					"flowUpSuccess",
+					"content",
+					"imgUrl",
+					"bgColorArr",
+					"element",
+					"Message",
+					"message",
+					"imgUrl",
+					"canEditOwnCreated",
+					"canedit",
+					"canEditOwnCreated",
+					"canEdit",
+					"canEditOwnCreated",
+					"canEdit",
+					"canedit",
+					"isEntrust",
+					"canEdit",
+					"flowUpParam",
+					"上传附件",
+					"commoncaseinfohead",
+					"settime",
+					"author",
+					"bigfname",
+					"bgColorArr",
+					"topleftcorner",
+					"Topleftcorner",
+					"caseeditbottomitem",
+					"edit",
+					";\n",
+					"bgColorArr",
+					"bg9756b7",
+					"bgColorArr",
+					"bg00a0e9",
+					"9756b7",
+					"00a0e9",
+					"caseeditbottomitem",
+					"createFlow",
+					" v-if=\"!isEntrust\"",
+					"resetAllState",
+					"show_clock_panel",
+					"curflowobj",
+					"casefid",
+					"resetAllState",
+					"watch",
+					"clockTimer",
+					"confirmClock",
+					"noticeEditingTimer",
+					"noticeFlowEditing",
+					"\n",
+					"confirmClock",
+					"used_time",
+					"editinghash",
+					"timeFormat",
+					"used_time",
+					"val",
+					"used_time",
+					"curParentFlow",
+					"toEditFlow",
+					"openisediting",
+					"noticeEditingTimer",
+					"curFlow",
+					"caseFlow",
+					"curFlow",
+					"noticeEditingTimer",
+					"curflowobj.casefid",
+					"createFlow",
+					"getCaseInfo",
+					"createsubflow",
+					"CreateSubFlow",
+					"createSubFlow",
+					"createsubflow_",
+					"toCreateSubFlow",
+					"this.caseId",
+					"caseId",
+					"caseid"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -244,6 +600,14 @@
 				"height": 42.0
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 118.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -285,7 +649,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 275.0,
+			"side_bar_width": 303.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -301,8 +665,228 @@
 				"selected_items":
 				[
 					[
+						"conta",
+						"contacts"
+					],
+					[
+						"add",
+						"addMemberModal"
+					],
+					[
+						"edit",
+						"editstate"
+					],
+					[
+						"start",
+						"startend"
+					],
+					[
+						"data",
+						"daterangeOptions"
+					],
+					[
+						"cur",
+						"curflowobj"
+					],
+					[
+						"sub",
+						"sub_fids"
+					],
+					[
+						"curflo",
+						"curflowid"
+					],
+					[
+						"curflow",
+						"curflowobj"
+					],
+					[
+						"big",
+						"bigfid"
+					],
+					[
+						"common",
+						"commonformv2"
+					],
+					[
+						"is",
+						"is_editing"
+					],
+					[
+						"JSON",
+						"JSON.parse"
+					],
+					[
+						"rig",
+						"rightUsers"
+					],
+					[
+						"biz",
+						"bizGroup"
+					],
+					[
+						"no",
+						"noLawyer"
+					],
+					[
 						"case",
-						"caseloading"
+						"caseedittophead"
+					],
+					[
+						"trans",
+						"translate"
+					],
+					[
+						"font",
+						"font-size: 〔property〕"
+					],
+					[
+						"bottom",
+						"bottomformnav"
+					],
+					[
+						"bottomc",
+						"bottomcommentnav"
+					],
+					[
+						"pr",
+						"props\tReact: this.props."
+					],
+					[
+						"caseedi",
+						"caseeditv2"
+					],
+					[
+						"recent",
+						"recentChat"
+					],
+					[
+						"re",
+						"recentChat"
+					],
+					[
+						"addmem",
+						"addMemberv2"
+					],
+					[
+						"addm",
+						"addMemberv2"
+					],
+					[
+						"dis",
+						"display"
+					],
+					[
+						"his",
+						"historylist"
+					],
+					[
+						"get",
+						"getHistoryCaseList"
+					],
+					[
+						"lst",
+						"last-child〔pseudo-class〕"
+					],
+					[
+						"cuscre",
+						"cuscreator"
+					],
+					[
+						"seac",
+						"searchBizSortData"
+					],
+					[
+						"val",
+						"validate"
+					],
+					[
+						"open",
+						"openCreateCusPanel"
+					],
+					[
+						"getcase",
+						"getCaseSortData"
+					],
+					[
+						"time",
+						"timeFormat"
+					],
+					[
+						"tpl",
+						"tplitemtop"
+					],
+					[
+						"stat",
+						"static"
+					],
+					[
+						"cusname",
+						"cusnamesearch"
+					],
+					[
+						"pa",
+						"param"
+					],
+					[
+						"drag",
+						"dragIndex"
+					],
+					[
+						"follow",
+						"followDatas"
+					],
+					[
+						"all",
+						"allselect"
+					],
+					[
+						"for",
+						"form_info_key"
+					],
+					[
+						"clear",
+						"clearTimeout〔function〕"
+					],
+					[
+						"guid",
+						"guides"
+					],
+					[
+						"fi",
+						"fixed〔value〕"
+					],
+					[
+						"su",
+						"summary"
+					],
+					[
+						"cont",
+						"content"
+					],
+					[
+						"cance",
+						"cancelalltaskEdit"
+					],
+					[
+						"task",
+						"taskAllEditing"
+					],
+					[
+						"fin",
+						"finish"
+					],
+					[
+						"cancel",
+						"canceltaskEdit"
+					],
+					[
+						"pre",
+						"pre-line〔value〕"
+					],
+					[
+						"keep",
+						"keeprecordsnavlistwrap"
 					],
 					[
 						"type",
@@ -329,12 +913,28 @@
 						"Git: Status"
 					],
 					[
-						"git diff ",
-						"Git: Diff Current File"
+						"git mer",
+						"Git: Merge"
+					],
+					[
+						"git ch",
+						"Git: Checkout"
+					],
+					[
+						"sshtml",
+						"Set Syntax: HTML"
+					],
+					[
+						"Package Control: remove",
+						"Package Control: Remove Package"
 					],
 					[
 						"remove",
 						"Package Control: Remove Package"
+					],
+					[
+						"git diff ",
+						"Git: Diff Current File"
 					],
 					[
 						"install",
@@ -370,34 +970,109 @@
 			},
 			"file_history":
 			[
-				"/F/vue_honsen/src/components/common/editorPost.vue",
-				"/F/vue_honsen/src/components/post/postEdit.vue",
-				"/F/vue_honsen/src/components/personalCenter/leaveWords.vue",
-				"/F/vue_honsen/src/components/personalCenter/personalCenter.vue",
-				"/F/vue_honsen/src/components/business/customerDetails.vue",
-				"/F/vue_honsen/src/components/common/z-caseFlowWrap.vue",
 				"/F/vue_honsen/src/components/business/caseEdit.vue",
-				"/F/vue_honsen/src/components/post/postRead.vue",
-				"/F/vue_honsen/build/webpack.prod.conf.js",
-				"/F/vue_honsen/src/components/header/news.vue",
-				"/F/vue_honsen/src/components/header/header.vue",
-				"/F/vue_honsen/src/components/personalCenter/evaluate.vue",
-				"/F/vue_honsen/src/components/personalCenter/question.vue",
-				"/F/vue_honsen/src/common/js/authCodeT.js",
-				"/F/vue_honsen/src/components/business/caseRead.vue",
-				"/F/vue_honsen/src/common/js/ajax.js",
-				"/F/vue_honsen/src/common/stylus/ivu.styl",
-				"/F/vue_honsen/src/components/search/search.vue",
-				"/F/vue_honsen/src/components/common/fileRead.vue",
+				"/F/vue_honsen/src/apiConfig.js",
 				"/F/vue_honsen/src/components/business/businessList.vue",
-				"/F/vue_honsen/src/components/login/bindAccount.vue",
-				"/F/vue_honsen/src/components/common/z-recommend.vue",
+				"/F/vue_honsen/src/components/business/caseFlowFiles.vue",
+				"/F/vue_honsen/src/components/business/caseFlowKeep.vue",
+				"/F/vue_honsen/src/components/business/caseInfo.vue",
+				"/F/vue_honsen/src/components/common/addMemberv2.vue",
+				"/F/vue_honsen/src/components/business/caseInfo_back.vue",
+				"/F/vue_honsen/src/components/common/z-caseFlowWrap.vue",
+				"/F/vue_honsen/src/components/business/businessList_back.vue",
+				"/F/vue_honsen/index.html",
+				"/F/vue_honsen/src/components/header/header.vue",
+				"/D/Program Files (x64)/Sublime Text 3/Data/.sublime/Local History/F/vue_honsen/src/components/common/addMemberv2-20180408094848.vue",
+				"/F/vue_honsen/src/common/stylus/ivu.styl",
+				"/F/vue_honsen/src/common/stylus/base.styl",
+				"/F/vue_honsen/src/components/personalCenter/personalCenter.vue",
+				"/F/vue_honsen/src/components/sideBar/chat.vue",
+				"/F/vue_honsen/src/components/business/caseEdit_back.vue",
 				"/F/vue_honsen/src/components/common/z-comment.vue",
+				"/F/vue_honsen/src/components/common/editorPost.vue",
+				"/F/vue_honsen/src/components/common/z-feedList.vue",
+				"/F/vue_honsen/src/components/business/caseFlow.vue",
+				"/F/vue_honsen/src/config.js",
+				"/F/vue_honsen/src/vueSocket.js",
+				"/F/vue_honsen/src/components/common/editor.vue",
+				"/F/vue_honsen/src/components/post/postList.vue",
+				"/F/vue_honsen/src/components/post/postRead.vue",
+				"/F/vue_honsen/src/components/videopage/videopage.vue",
+				"/F/vue_honsen/src/components/sideBar/fullcalendar.vue",
+				"/F/vue_honsen/src/components/sideBar/collect.vue",
+				"/F/vue_honsen/src/components/post/shareJiathis.vue",
+				"/F/vue_honsen/src/components/common/fileRead.vue",
+				"/F/vue_honsen/src/common/js/messageConvert.js",
+				"/F/vue_honsen/src/App.vue",
+				"/F/vue_honsen/static/js/jia.js",
+				"/F/vue_honsen/src/components/common/addMember.vue",
+				"/C/Users/Administrator/Desktop/下载",
+				"/F/vue_honsen/src/vueAxios.js",
+				"/F/vue_honsen/config/dev.env.js",
+				"/F/vue_honsen/config/prod.env.js",
+				"/F/vue_honsen/src/router.js",
 				"/F/vue_honsen/src/components/personalSetter/identitySet.vue",
+				"/F/vue_honsen/src/components/header/news.vue",
+				"/F/vue_honsen/node_modules/coa/lib/cmd.js",
+				"/F/vue_honsen/dist/index.html",
+				"/F/vue_honsen/src/components/common/z-lawyersList.vue",
+				"/F/vue_honsen/src/components/sideBar/calendarTip.vue",
+				"/F/vue_honsen/src/components/post/postEdit.vue",
+				"/F/vue_honsen/package.json",
+				"/F/apollo/package.json",
+				"/F/vue_honsen/node_modules/iview/dist/styles/iview.css",
+				"/F/apollo/node_modules/iview/package.json",
+				"/F/apollo/node_modules/iview/README.md",
+				"/F/vue_honsen/src/common/config.less",
+				"/F/vue_honsen/src/common/directives/scrollUnique.js",
+				"/F/vue_honsen/src/common/stylus/mixin.styl",
+				"/F/vue_honsen/src/components/common/z-honsenInformation.vue",
+				"/C/Users/Administrator/Desktop/2017_弘商信息技术（深圳）有限公司(1).xml",
+				"/C/Users/Administrator/Desktop/vue-concise-slider/index.html",
 				"/F/vue_honsen/src/components/personalSetter/accountSet.vue",
+				"/F/vue_honsen/src/common/js/check.js",
+				"/F/vue_honsen/src/components/common/z-myFollow.vue",
+				"/F/vue_honsen/src/components/common/z-recommend.vue",
+				"/F/vue_honsen/src/components/personalSetter/personalSetter.vue",
+				"/F/vue_honsen/src/main.js",
+				"/F/vue_honsen/src/components/sideBar/calculation.vue",
+				"/F/vue_honsen/src/components/common/z-searchBox.vue",
+				"/F/vue_honsen/src/components/search/search.vue",
+				"/F/vue_honsen/src/components/business/caseRead.vue",
+				"/F/vue_honsen/src/components/login/login.vue",
+				"/D/Program Files (x64)/Sublime Text 3/Data/.sublime/Local History/F/vue_honsen/src/components/common/z-feedList-20180308092055.vue",
+				"/C/Users/Administrator/Desktop/a",
+				"/F/vue_honsen/src/components/sideBar/sideBase.vue",
+				"/F/vue_honsen/src/components/sideBar/sideBar.vue",
+				"/F/vue_honsen/src/components/sideBar/records.vue",
+				"/F/vue_honsen/src/components/sideBar/feedback.vue",
+				"/F/vue_honsen/src/common/stylus/ue.styl",
+				"/F/vue_honsen/src/common/directives/onlyNum.js",
+				"/F/vue_honsen/src/common/js/iview.js",
+				"/F/vue_honsen/src/components/recommend/recommend.vue",
+				"/F/vue_honsen/src/vueX/index.js",
+				"/F/vue_honsen/src/components/sideBar/shortNote.vue",
+				"/F/vue_honsen/src/components/personalCenter/question.vue",
+				"/F/vue_honsen/src/components/personalCenter/leaveWords.vue",
+				"/F/vue_honsen/src/components/personalCenter/evaluate.vue",
+				"/F/vue_honsen/src/components/common/z-sendBiz.vue",
+				"/F/vue_honsen/src/components/business/formTable.vue",
+				"/F/vue_honsen/node_modules/iview/src/components/menu/menu.vue",
+				"/F/vue_honsen/node_modules/iview/src/components/menu/submenu.vue",
+				"/F/vue_honsen/node_modules/iview/src/components/menu/menu-item.vue",
+				"/F/vue_honsen/src/components/passwordReset/passwordReset.vue",
+				"/F/vue_honsen/build/webpack.prod.conf.js",
+				"/F/vue_honsen/src/components/business/flowForm.vue",
+				"/F/vue_honsen/src/components/personalCenter/selectLawyer.vue",
+				"/F/vue_honsen/src/components/common/z-loginRegister.vue",
+				"/C/Users/Administrator/Desktop/bar-label-rotation.html",
+				"/F/vue_honsen/static/tool/banHijack.js",
+				"/F/vue_honsen/src/components/business/customerDetails.vue",
+				"/F/vue_honsen/src/common/js/authCodeT.js",
+				"/F/vue_honsen/src/common/js/ajax.js",
+				"/F/vue_honsen/src/components/login/bindAccount.vue",
 				"/D/Program Files (x64)/Adobe/Adobe Premiere Pro CC 2017/Adobe Premiere Pro.exe",
 				"/C/Users/Administrator/Desktop/改进汇总表（01.24）.xlsx",
-				"/F/vue_honsen/src/main.js",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/Default (Windows).sublime-keymap",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/User/insert_date.sublime-settings",
 				"/D/Program Files (x64)/Sublime Text 3/Data/Packages/InsertDate/insert_date.sublime-settings",
@@ -421,6 +1096,8 @@
 				"height": 135.0,
 				"where_history":
 				[
+					"F:\\vue_honsen\\src",
+					"F:\\vue_honsen",
 					"F:\\vue_honsen\\src"
 				]
 			},
@@ -429,71 +1106,134 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"toggleUpvote",
-					"insertBefore",
-					"detail",
-					"getModuleInfo",
-					"creator_user",
-					"getFlowList",
-					"creator_user",
-					".id",
-					"ref",
+					"logout",
+					"bigflowbg",
+					"childflow",
+					"caseeditbottomitem",
+					"flowdragstart",
+					"sub_i",
+					"flowdragstart",
+					"flowdrop",
+					"flowdragstart",
+					"flowdrop",
+					"flowdragstart",
+					"dragstart",
+					"cts",
+					"contacts",
+					"addCustomer",
+					"casecontacts",
+					"contacts",
+					"addCustomer",
+					"openAddmember",
+					"initUsers",
+					"toSubmitAuth",
+					"allContacts",
+					"toSubmitAuth",
+					"toggleimgnav",
+					"filename",
+					"status",
+					"this.oRole",
+					"canEditOwnCreated",
+					"curflowobj",
+					"flowUpSuccess",
+					"flowUpParam",
+					"curflowobj",
+					"flowUpParam",
+					"curflowobj",
+					"nodatalistcry",
+					"middleconnonnavwrap",
+					"caseFlowFiles",
+					"caseFlowKeep",
+					"Keep",
+					"caseFlowKeep",
+					"commonselectsomethingwrapv2",
+					"toaddatman",
+					"addMemberModal",
+					"toSubmitAuth",
+					"toDelCaseKeep",
+					"submitMember",
+					"toSubmitAuth",
+					"addMemberModal",
+					"onlyLawyer",
+					"startend",
+					"remind",
+					"start",
+					"title",
+					"saveFlowKeep",
+					"addMemberModal",
+					"openAddmember",
+					"next",
+					"openAddmember",
+					"flowMouse",
+					"openAddmember",
+					"toHandleUser",
+					"addMemberModal",
+					"addMemberv2dom",
+					"addMemberv2",
+					"casekeepcreateform",
+					"toDelCaseKeep",
+					"title",
+					"saveFlowKeep",
+					"os",
+					"needHonsen",
+					"RecentChat",
+					"recentChat",
+					"changeTimeRange",
+					"timeOptions",
+					"time",
+					",v",
+					",{",
+					"timeOptions",
+					" size=\"large\"",
+					"middleconnonnavwrap",
+					"title",
+					"saveFlowKeep",
+					"daterangeOptions",
+					"changeTimeRange",
+					"daterangeOptions",
+					"changeTimeRange",
+					"calendar_info.timerange",
+					"changeTimeRange",
+					"daterangeOptions",
+					"calendar_info.timerange",
 					"this.$refs",
-					"setEntrustFiles",
-					"up_success",
-					"isEntrust",
-					"flow_main_tit",
-					"委托内容",
-					"casename",
-					"ownerTeamAndCoactor",
-					"CaseInfo",
+					"casekeepcreateform",
+					"tooglebottomnav",
+					"bottomcasekeepnav",
+					"tooglebottomnav",
+					"saveFlowKeep",
+					"save",
+					"saveFlowKeep",
+					"ruleValidate",
+					"casekeepcreateform",
+					"ctmname",
+					"saveflowkeep",
+					"navmenuClick",
+					"conwrap",
+					"navmenuClick",
+					"caseinfo",
 					"caseInfo",
-					"caseloading",
-					"customerkeepcenter",
-					"showCreateFlowPanelFn",
-					"type",
-					"Type",
-					"type",
-					"caseid",
-					"createFlow",
-					"./",
-					"id",
-					"caseEdit",
-					"case_edit",
-					"flow_nav",
-					"class=\"selectselectwrap",
-					"200px",
-					"selectselectwrap",
-					"selectwrapwrap",
-					"listul",
-					"selectselectwrap",
-					"select",
-					"customer",
-					"aj",
-					"kh",
-					"qzkh",
-					"zskh",
-					"z_customerFlow",
-					"customerFlow",
-					"word",
-					"addcase",
-					"delCTM",
-					"delctm",
-					"删除",
-					"checkPhone",
-					"validator",
-					"phone",
-					"Phone",
-					"phone",
-					"formValidate",
-					"fileuplist",
-					"下载此文件",
-					"fileuplist",
-					"a_down",
-					"下载此文件",
-					"fileuplist",
-					"下载此文件",
-					";\n"
+					"caseFlowKeep",
+					"middleconnonnavwrap",
+					"clearInterval",
+					"confirmClock",
+					"curflowobj",
+					"oRole",
+					"showcaseinfo",
+					"submitFlowContent",
+					"nodatalistcry",
+					"curflowobj",
+					"flowUpSuccess",
+					"content",
+					"imgUrl",
+					"bgColorArr",
+					"element",
+					"Message",
+					"message",
+					"imgUrl",
+					"canEditOwnCreated",
+					"canedit",
+					"canEditOwnCreated"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -547,12 +1287,20 @@
 				]
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 118.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-1,-1,-1,1174,287,190,1647",
+			"position": "0,2,3,-1,-1,-1,-1,1040,335,77,1695",
 			"project": "",
 			"replace":
 			{
@@ -594,12 +1342,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 281.0,
+			"side_bar_width": 303.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 29,
 			"workspace_name": ""
 		}
 	],

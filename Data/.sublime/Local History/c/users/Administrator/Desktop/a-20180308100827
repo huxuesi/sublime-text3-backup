@@ -1,0 +1,8 @@
+http://cloudapi.honsenflag.com/feed?start=1&num=8&comments=0&type=posts
+http://cloudapi.honsenflag.com/post/highqualityposts?page=1&perpage=8
+
+http://cloudapi.honsenflag.com/search/user/a?page=1&perpage=8
+http://cloudapi.honsenflag.com/search/myfollowusers/a?page=1&perpage=8
+http://cloudapi.honsenflag.com/search/mynotfollowusers/a?page=1&perpage=8
+http://cloudapi.honsenflag.com/search/leveluser/a?page=1&perpage=8
+http://cloudapi.honsenflag.com/search/generaluser/a?page=1&perpage=8

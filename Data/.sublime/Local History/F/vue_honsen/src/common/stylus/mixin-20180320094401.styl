@@ -1,0 +1,40 @@
+bgImg(_width,_height,_url)
+    width _width
+    height _height
+    background-position center
+    background-repeat no-repeat
+    background-image url(_url)
+
+addIcon(_color)
+    width: 22px
+    height: 22px
+    line-height: 19px
+    border-radius: 50%
+    background-color: _color
+    font-size: 25px
+    color: #fff
+    text-align center
+    cursor pointer
+
+downArrow(w, c)
+    width: 0
+    height: 0
+    border-top: w solid c
+    border-left: w solid transparent
+    border-right: w solid transparent
+
+topArrow(w, c)
+    width: 0
+    height: 0
+    border-bottom: w solid c
+    border-left: w solid transparent
+    border-right: w solid transparent
+
+ellipsis(n)
+    overflow: hidden
+    text-overflow: ellipsis
+    display: box
+    display: -webkit-box
+    line-clamp: n
+    -webkit-line-clamp: n
+    -webkit-box-orient: vertical

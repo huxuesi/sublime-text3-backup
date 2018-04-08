@@ -1,0 +1,39 @@
+<style lang="stylus">
+.shortNoteInfo
+    //
+</style>
+
+<template>
+    <div class="shortNoteInfo">
+        {{$store.state.curShortNoteInfo}}
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'shortNoteInfo',
+    data () {
+        return {
+
+        }
+    },
+    computed: {
+
+    },
+    beforeMount() {
+
+    },
+    mounted() {
+
+    },
+    methods: {
+
+    },
+    filters: {
+
+    },
+    components: {
+
+    }
+}
+</script>

@@ -1,0 +1,79 @@
+/* 编辑器 */
+.post_edit
+    .edui-editor-iframeholder
+        padding-top 0px
+        padding-bottom 10px
+    .edui-editor
+        border none !important
+    .edui-toolbar
+        text-align left
+    .edui-default
+        .edui-editor-toolbarbox
+            position fixed
+            top 60px
+            left 0
+            z-index 1000
+            width 100%
+            box-shadow: none
+            border-radius 0 !important
+        .edui-editor-toolbarboxouter
+            width 950px
+            margin 0 auto
+            border none !important
+            border-bottom none !important
+            background-color: #eef9fe !important
+            background-image: none !important
+            border-radius: 0 !important
+            box-shadow: none !important
+            padding: 10px 0 !important
+
+/* postRead显示 */
+.text-content
+    color #000
+    font-size 14px
+    p
+        margin: 5px 0
+        line-height 1.75
+        word-break: break-word
+        word-wrap: break-word
+    h1, h2, h3, h4, h5, h6
+        margin: 14px 0
+    img
+        max-width: 100% !important
+    table
+        margin 0 auto 10px
+        width 100% !important
+        border-collapse: collapse
+        td, th
+            padding: 5px 10px
+            border: 1px solid #DDD
+    ol, ul
+        padding-left 20px
+    ol
+        list-style-type decimal
+    ul
+        list-style-type disc
+    /* 文件下载图标 */
+    .ueditor_file, .ck_file_2, .ck_file
+        margin-right 15px
+        .icon_img
+            margin-right 5px
+            vertical-align sub
+        .f_downLoad
+            margin-left 10px
+            display inline-block
+            width 12px
+            height 13px
+            background-position center
+            background-repeat no-repeat
+            background-image url('/static/icon/0027.png')
+            &:hover
+                background-image url('/static/icon/0027_.png')
+
+// 编辑器消息面板（不在编辑器的iframe里）
+.edui-editor-messageholder
+    margin-top: 60px !important
+.edui-colorpicker-nocolor
+    padding: 0 !important
+    height: 20px !important
+    line-height: 20px !important
